@@ -1,0 +1,201 @@
+
+@mixin backgroundImage($url){
+  background: center no-repeat url($url);
+}
+.map {
+  width: 3485px;
+  height: 3460px;
+  position: relative;
+  display: flex;
+  @include backgroundImage("http://hydra-media.cursecdn.com/bannersaga.gamepedia.com/d/d9/World-Map.jpg?version=76423fd143ce1ea8a1ebb3c885b06fbb");
+}
+
+@mixin wordanMixin(){
+  width: 109px;
+  height: 50px;
+  top: 195px;
+  left: 666px;
+  position: absolute;
+}
+.wordan {
+  @include wordanMixin;
+
+}
+.wordan-bg {
+  @include wordanMixin;
+  @include backgroundImage("map/hover_wordan.png");
+}
+.wordan-inner {
+  width: 109px;
+  height: 50px;
+  z-index: 100;
+}
+
+@mixin valkajokullMixin(){
+  height: 1052px;
+  width: 1254px;
+  left: 1448px;
+  top: 208px;
+  position: absolute;
+  z-index: 100;
+}
+.valkajokull {
+  @include valkajokullMixin;
+}
+.valkajokull-bg {
+  @include valkajokullMixin;
+  @include backgroundImage("map/hover_valkajokull.png");
+}
+.valkajokull-inner {
+  width: 619px;
+  height: 300px;
+  left: 291px;
+  top: 437px;
+  position: absolute;
+  clip-path: polygon(52% 7%, 100% 60%, 100% 73%, 84% 96%, 43% 53%, 0 45%, 0 6%);
+}
+
+@mixin setterlundMixin(){
+  height: 1800px;
+  width: 1560px;
+  left: 1625px;
+  top: 361px;
+  position: absolute;
+}
+.setterlund {
+  @include setterlundMixin;
+}
+.setterlund-bg {
+  @include setterlundMixin;
+  @include backgroundImage("map/hover_setterlund.png");
+}
+.setterlund-inner {
+  width: 476px;
+  height: 410px;
+  left: 627px;
+  top: 760px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(81% 0, 96% 18%, 69% 57%, 48% 84%, 0 99%, 0 75%, 48% 41%);
+}
+@mixin swartbogMixin(){
+  height: 1354px;
+  width: 1560px;
+  left: 1540px;
+  bottom: 0;
+  position: absolute;
+}
+.swartbog {
+  @include swartbogMixin;
+}
+.swartbog-bg {
+  @include swartbogMixin;
+  @include backgroundImage("map/hover_swartbog.png");
+}
+.swartbog-inner {
+  width: 605px;
+  height: 461px;
+  left: 377px;
+  top: 686px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(0 73%, 100% 0, 100% 27%, 0 101%);
+}
+
+@mixin dalalondMixin(){
+  height: 602px;
+  width: 1750px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+.dalalond {
+  @include dalalondMixin;
+}
+.dalalond-bg {
+  @include dalalondMixin;
+  @include backgroundImage("map/hover_dalalond.png");
+}
+.dalalond-inner {
+  width: 605px;
+  height: 219px;
+  left: 780px;
+  bottom: 71px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(0 0, 99% 20%, 95% 107%, 0 62%);
+}
+
+@mixin stromlundMixin(){
+  height: 1134px;
+  width: 1961px;
+  left: 653px;
+  bottom: 368px;
+  position: absolute;
+}
+.stromlund {
+  @include stromlundMixin;
+}
+.stromlund-bg {
+  @include stromlundMixin;
+  @include backgroundImage("map/hover_stromlund.png");
+}
+.stromlund-inner {
+  width: 512px;
+  height: 219px;
+  left: 606px;
+  bottom: 291px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(0 0, 88% 21%, 92% 85%, 0 62%);
+}
+
+@mixin rundwallMixin(){
+  height: 1275px;
+  width: 1477px;
+  left: 158px;
+  bottom: 364px;
+  position: absolute;
+}
+.rundwall {
+  @include rundwallMixin;
+}
+.rundwall-bg {
+  @include rundwallMixin;
+  @include backgroundImage("map/hover_rundwall.png");
+}
+.rundwall-inner {
+  width: 512px;
+  height: 520px;
+  left: 606px;
+  top: 139px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(0 70%, 71% 0, 74% 38%, 0 106%);
+}
+
+@mixin hraunMixin(){
+  height: 1176px;
+  width: 1786px;
+  left: 569px;
+  top: 887px;
+  position: absolute;
+}
+.hraun {
+  @include hraunMixin;
+}
+.hraun-bg {
+  @include hraunMixin;
+  @include backgroundImage("map/hover_hraun.png");
+}
+.hraun-inner {
+  width: 695px;
+  height: 564px;
+  left: 659px;
+  top: 610px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(0 59%, 73% 0, 77% 32%, 0 83%);
+}
+
+
