@@ -13,8 +13,9 @@ class App extends Component {
         this.state = {
             width: '100%',
             height: window.innerHeight,
-            showModal: true,
-            modalTitle: 'start'
+            showModal: false,
+            modalTitle: 'start',
+            modalText: ''
         }
     }
     closeModal(){
@@ -23,11 +24,12 @@ class App extends Component {
             showModal: false
         }))
     }
-    showModal(title){
+    showModal(title, text){
         this.setState((prevState, props) => ({
             ...prevState,
             showModal: true,
-            modalTitle: title
+            modalTitle: title,
+            modalText: text
         }))
     }
 
@@ -41,6 +43,7 @@ class App extends Component {
                 <div className='map'>
                     {mapObjects.map(obj => <MapObject
                             name={obj.name}
+                            text={obj.text}
                             classNameObject={obj.className}
                             key={obj.className}
                             showModal={this.showModal.bind(this)}
@@ -64,10 +67,11 @@ class App extends Component {
                 contentLabel={this.state.modalTitle}
             >
                 <div className='modal-inner-container'>
-                    <h1 className='modal-title'>{this.state.modalTitle}</h1>
-                    <button
+                    <span className='modal-title'>{this.state.modalTitle}</span>
+                    <span className='modal-text'>{this.state.modalText || ' '}</span>
+                    <span
                         className='modal-close-btn'
-                        onClick={this.closeModal.bind(this)}>close</button>
+                        onClick={this.closeModal.bind(this)}>Close</span>
                 </div>
             </Modal>
         ]
@@ -75,9 +79,6 @@ class App extends Component {
     }
     updateDimensions() {
         this.setState((prevState, props) => ({width: window.innerWidth, height: window.innerHeight}));
-    }
-    componentWillMount() {
-        this.updateDimensions();
     }
     componentDidMount() {
         window.addEventListener("resize", this.updateDimensions.bind(this));

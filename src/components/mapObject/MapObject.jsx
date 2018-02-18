@@ -11,8 +11,8 @@ class MapObject extends Component {
         };
     }
     onClick(){
-        const {showModal, name} = this.props;
-        showModal(name)
+        const {showModal, name, text} = this.props;
+        showModal(name, text)
     }
     onMouseOver(){
         this.setState((prevState, props) => ({...prevState, class: props.classNameObject + '-bg'}))
@@ -37,6 +37,7 @@ class MapObject extends Component {
 }
 MapObject.propTypes = {
     name: PropTypes.string,
+    text: PropTypes.string,
     classNameObject: PropTypes.string,
     showModal: PropTypes.func
 };

@@ -5,7 +5,8 @@ export const mapObjects = [
     },
     {
         name: 'Valkajokull',
-        className: 'valkajokull'
+        className: 'valkajokull',
+        text: 'Lorem ipsum dolor sit amet, his debitis admodum reprimique ea, cu sed forensibus temporibus. Ne possit patrioque per, cum utamur consulatu cu. Vis id alterum indoctum disputationi, nec insolens persecuti ei. Usu volumus probatus in. Essent repudiare intellegam id cum, utroque voluptua laboramus per id.'
     },
     {
         name: 'Setterlund',
