@@ -19,7 +19,6 @@
 }
 .wordan {
   @include wordanMixin;
-
 }
 .wordan-bg {
   @include wordanMixin;
@@ -53,7 +52,7 @@
   left: 291px;
   top: 437px;
   position: absolute;
-  clip-path: polygon(52% 7%, 100% 60%, 100% 73%, 84% 96%, 43% 53%, 0 45%, 0 6%);
+  clip-path: polygon(106px 148px, 67px 34px, 243px 20px, 427px 68px, 564px 196px, 496px 266px, 367px 166px, 264px 137px);
 }
 
 @mixin setterlundMixin(){
@@ -77,7 +76,7 @@
   top: 760px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon(81% 0, 96% 18%, 69% 57%, 48% 84%, 0 99%, 0 75%, 48% 41%);
+  clip-path: polygon(19px 299px, 183px 218px, 369px 20px, 445px 84px, 363px 182px, 207px 324px, 22px 399px);
 }
 @mixin swartbogMixin(){
   height: 1354px;
@@ -100,7 +99,7 @@
   top: 686px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon(0 73%, 100% 0, 100% 27%, 0 101%);
+  clip-path: polygon(40px 310px, 517px 22px, 539px 115px, 53px 403px);
 }
 
 @mixin dalalondMixin(){
@@ -124,7 +123,7 @@
   bottom: 71px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon(0 0, 99% 20%, 95% 107%, 0 62%);
+  clip-path: polygon(4px 0px, 351px 108px, 459px 126px, 537px 111px, 544px 195px, 426px 210px, 318px 177px, 87px 109px, -6px 117px);
 }
 
 @mixin stromlundMixin(){
@@ -148,7 +147,7 @@
   bottom: 291px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon(0 0, 88% 21%, 92% 85%, 0 62%);
+  clip-path: polygon(82px 33px, 228px 23px, 378px 86px, 465px 119px, 472px 183px, 399px 182px, 240px 111px, 118px 113px);
 }
 
 @mixin rundwallMixin(){
@@ -172,7 +171,7 @@
   top: 139px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon(0 70%, 71% 0, 74% 38%, 0 106%);
+  clip-path: polygon(162px 211px, 337px 120px, 366px 210px, 235px 286px, 90px 450px, 1px 393px);
 }
 
 @mixin hraunMixin(){
@@ -196,7 +195,7 @@
   top: 610px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon(0 59%, 73% 0, 77% 32%, 0 83%);
+  clip-path: polygon(52px 310px, 367px 146px, 411px 229px, 291px 295px, 81px 388px);
 }
 
 

@@ -34,6 +34,12 @@ class App extends Component {
     }
 
     render() {
+        const mapObjectComponentsList = mapObjects.map(obj => <MapObject
+                classNameObject={obj.className}
+                key={obj.className}
+                onClick={this.showModal.bind(this, obj.name, obj.text)}
+            />
+        );
         return [
             <DragScroll
                 height={this.state.height}
@@ -41,19 +47,13 @@ class App extends Component {
                 key='map'
             >
                 <div className='map'>
-                    {mapObjects.map(obj => <MapObject
-                            name={obj.name}
-                            text={obj.text}
-                            classNameObject={obj.className}
-                            key={obj.className}
-                            showModal={this.showModal.bind(this)}
-                        />
-                    )}
+                    {mapObjectComponentsList}
                 </div>
             </DragScroll>,
             <Modal
                 key="modal"
                 isOpen={this.state.showModal}
+                ariaHideApp={false}
                 className={{
                     base: 'modal-content',
                     afterOpen: 'modal-content_after-open',
