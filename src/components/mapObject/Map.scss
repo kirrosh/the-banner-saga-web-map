@@ -1,0 +1,201 @@
+
+@mixin backgroundImage($url){
+  background: center no-repeat url($url);
+}
+.map {
+  width: 3485px;
+  height: 3460px;
+  position: relative;
+  display: flex;
+  @include backgroundImage("https://i.imgur.com/dDlClEp.jpg");
+}
+
+@mixin wordanMixin(){
+  width: 109px;
+  height: 50px;
+  top: 195px;
+  left: 666px;
+  position: absolute;
+}
+.wordan {
+  @include wordanMixin;
+}
+.wordan-bg {
+  @include wordanMixin;
+  @include backgroundImage("map/hover_wordan.png");
+}
+.wordan-inner {
+  width: 109px;
+  height: 50px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+@mixin valkajokullMixin(){
+  height: 1052px;
+  width: 1254px;
+  left: 1448px;
+  top: 208px;
+  position: absolute;
+  z-index: 100;
+}
+.valkajokull {
+  @include valkajokullMixin;
+}
+.valkajokull-bg {
+  @include valkajokullMixin;
+  @include backgroundImage("map/hover_valkajokull.png");
+}
+.valkajokull-inner {
+  width: 619px;
+  height: 300px;
+  left: 291px;
+  top: 437px;
+  position: absolute;
+  clip-path: polygon(106px 148px, 67px 34px, 243px 20px, 427px 68px, 564px 196px, 496px 266px, 367px 166px, 264px 137px);
+}
+
+@mixin setterlundMixin(){
+  height: 1800px;
+  width: 1560px;
+  left: 1625px;
+  top: 361px;
+  position: absolute;
+}
+.setterlund {
+  @include setterlundMixin;
+}
+.setterlund-bg {
+  @include setterlundMixin;
+  @include backgroundImage("map/hover_setterlund.png");
+}
+.setterlund-inner {
+  width: 476px;
+  height: 410px;
+  left: 627px;
+  top: 760px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(19px 299px, 183px 218px, 369px 20px, 445px 84px, 363px 182px, 207px 324px, 22px 399px);
+}
+@mixin swartbogMixin(){
+  height: 1354px;
+  width: 1560px;
+  left: 1540px;
+  bottom: 0;
+  position: absolute;
+}
+.swartbog {
+  @include swartbogMixin;
+}
+.swartbog-bg {
+  @include swartbogMixin;
+  @include backgroundImage("map/hover_swartbog.png");
+}
+.swartbog-inner {
+  width: 605px;
+  height: 461px;
+  left: 377px;
+  top: 686px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(40px 310px, 517px 22px, 539px 115px, 53px 403px);
+}
+
+@mixin dalalondMixin(){
+  height: 602px;
+  width: 1750px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+.dalalond {
+  @include dalalondMixin;
+}
+.dalalond-bg {
+  @include dalalondMixin;
+  @include backgroundImage("map/hover_dalalond.png");
+}
+.dalalond-inner {
+  width: 605px;
+  height: 219px;
+  left: 780px;
+  bottom: 71px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(4px 0px, 351px 108px, 459px 126px, 537px 111px, 544px 195px, 426px 210px, 318px 177px, 87px 109px, -6px 117px);
+}
+
+@mixin stromlundMixin(){
+  height: 1134px;
+  width: 1961px;
+  left: 653px;
+  bottom: 368px;
+  position: absolute;
+}
+.stromlund {
+  @include stromlundMixin;
+}
+.stromlund-bg {
+  @include stromlundMixin;
+  @include backgroundImage("map/hover_stromlund.png");
+}
+.stromlund-inner {
+  width: 512px;
+  height: 219px;
+  left: 606px;
+  bottom: 291px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(82px 33px, 228px 23px, 378px 86px, 465px 119px, 472px 183px, 399px 182px, 240px 111px, 118px 113px);
+}
+
+@mixin rundwallMixin(){
+  height: 1275px;
+  width: 1477px;
+  left: 158px;
+  bottom: 364px;
+  position: absolute;
+}
+.rundwall {
+  @include rundwallMixin;
+}
+.rundwall-bg {
+  @include rundwallMixin;
+  @include backgroundImage("map/hover_rundwall.png");
+}
+.rundwall-inner {
+  width: 512px;
+  height: 520px;
+  left: 606px;
+  top: 139px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(162px 211px, 337px 120px, 366px 210px, 235px 286px, 90px 450px, 1px 393px);
+}
+
+@mixin hraunMixin(){
+  height: 1176px;
+  width: 1786px;
+  left: 569px;
+  top: 887px;
+  position: absolute;
+}
+.hraun {
+  @include hraunMixin;
+}
+.hraun-bg {
+  @include hraunMixin;
+  @include backgroundImage("map/hover_hraun.png");
+}
+.hraun-inner {
+  width: 695px;
+  height: 564px;
+  left: 659px;
+  top: 610px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(52px 310px, 367px 146px, 411px 229px, 291px 295px, 81px 388px);
+}
+
+
