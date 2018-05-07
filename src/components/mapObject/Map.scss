@@ -2,7 +2,7 @@
 @mixin backgroundImage($url){
   background: center no-repeat url($url);
 }
-.map {
+.map {  
   width: 3485px;
   height: 3460px;
   position: relative;
@@ -198,4 +198,24 @@
   clip-path: polygon(52px 310px, 367px 146px, 411px 229px, 291px 295px, 81px 388px);
 }
 
-
+@mixin akurMixin(){
+  height: 125px;
+  width: 158px;
+  left: 445px;
+  bottom: 940px;
+  position: absolute;
+}
+.akur {
+  @include akurMixin;
+}
+.akur-bg {
+  @include akurMixin;
+  @include backgroundImage("map/hover_akur.png");
+}
+.akur-inner {
+  height: 125px;
+  width: 158px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(35px 24px, 128px 40px, 128px 65px, 113px 99px, 96px 71px, 21px 55px);
+}
