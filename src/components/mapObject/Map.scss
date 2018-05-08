@@ -201,7 +201,7 @@
 @mixin akurMixin(){
   height: 125px;
   width: 158px;
-  left: 445px;
+  left: 446px;
   bottom: 940px;
   position: absolute;
 }
@@ -218,4 +218,116 @@
   position: absolute;
   z-index: 100;
   clip-path: polygon(35px 24px, 128px 40px, 128px 65px, 113px 99px, 96px 71px, 21px 55px);
+}
+
+@mixin arberrangMixin(){
+  height: 248px;
+  width: 547px;
+  left: 175px;
+  bottom: 613px;
+  position: absolute;
+}
+.arberrang {
+  @include arberrangMixin;
+}
+.arberrang-bg {
+  @include arberrangMixin;
+  @include backgroundImage("map/hover_arberrang.png");
+}
+.arberrang-inner {
+  height: 248px;
+  width: 547px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(304px 36px, 300px 68px, 395px 57px, 403px 29px, 537px 69px, 436px 112px, 227px 144px, 84px 219px, 46px 222px, 7px 196px, 41px 148px);
+}
+
+@mixin arberRiverMixin(){
+  height: 98px;
+  width: 152px;
+  left: 275px;
+  bottom: 584px;
+  position: absolute;
+}
+.arberRiver {
+  @include arberRiverMixin;
+}
+.arberRiver-bg {
+  @include arberRiverMixin;
+  @include backgroundImage("map/hover_arberriver.png");
+}
+.arberRiver-inner {
+  height: 98px;
+  width: 152px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(27px 60px, 60px 31px, 121px 30px, 122px 47px, 76px 48px, 33px 73px);
+}
+
+@mixin arosMixin(){
+  height: 91px;
+  width: 142px;
+  left: 1741px;
+  bottom: 830px;
+  position: absolute;
+}
+.aros {
+  @include arosMixin;
+}
+.aros-bg {
+  @include arosMixin;
+  @include backgroundImage("map/hover_aros.png");
+}
+.aros-inner {
+  height: 32px;
+  width: 85px;
+  left: 26px;
+  top: 29px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin asarMixin(){
+  height: 93px;
+  width: 130px;
+  left: 1379px;
+  bottom: 244px;
+  position: absolute;
+}
+.asar {
+  @include asarMixin;
+}
+.asar-bg {
+  @include asarMixin;
+  @include backgroundImage("map/hover_asar.png");
+}
+.asar-inner {
+  height: 47px;
+  width: 76px;
+  position: absolute;
+  z-index: 100;
+  left: 26px;
+  top: 5px;
+}
+
+@mixin axefjordMixin(){
+  height: 109px;
+  width: 106px;
+  left: 1297px;
+  top: 1087px;
+  position: absolute;
+}
+.axefjord {
+  @include axefjordMixin;
+}
+.axefjord-bg {
+  @include axefjordMixin;
+  @include backgroundImage("map/hover_axefjord.png");
+}
+.axefjord-inner {
+  height: 109px;
+  width: 106px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(24px 74px, 68px 26px, 80px 37px, 34px 85px);
 }
