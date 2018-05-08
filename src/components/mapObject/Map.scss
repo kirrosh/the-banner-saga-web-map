@@ -2,7 +2,7 @@
 @mixin backgroundImage($url){
   background: center no-repeat url($url);
 }
-.map {  
+.map {
   width: 3485px;
   height: 3460px;
   position: relative;
@@ -330,4 +330,93 @@
   position: absolute;
   z-index: 100;
   clip-path: polygon(24px 74px, 68px 26px, 80px 37px, 34px 85px);
+}
+@mixin baaHarbourMixin(){
+  height: 240px;
+  width: 115px;
+  right: 491px;
+  top: 1432px;
+  position: absolute;
+}
+.baaHarbour {
+  @include baaHarbourMixin;
+}
+.baaHarbour-bg {
+  @include baaHarbourMixin;
+  @include backgroundImage("map/hover_baaharbour.png");
+}
+.baaHarbour-inner {
+  height: 240px;
+  width: 115px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(63px 210px, 52px 128px, 26px 34px, 53px 28px, 80px 119px, 90px 210px);
+}
+
+@mixin bindalMixin(){
+  height: 137px;
+  width: 243px;
+  left: 1157px;
+  bottom: 1086px;
+  position: absolute;
+}
+.bindal {
+  @include bindalMixin;
+}
+.bindal-bg {
+  @include bindalMixin;
+  @include backgroundImage("map/hover_bindal.png");
+}
+.bindal-inner {
+  height: 80px;
+  width: 170px;
+  position: absolute;
+  z-index: 100;
+  top: 29px;
+  right: 37px;
+}
+
+@mixin bitraMixin(){
+  height: 104px;
+  width: 117px;
+  right: 644px;
+  top: 1408px;
+  position: absolute;
+}
+.bitra {
+  @include bitraMixin;
+}
+.bitra-bg {
+  @include bitraMixin;
+  @include backgroundImage("map/hover_bitra.png");
+}
+.bitra-inner {
+  height: 104px;
+  width: 117px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 51px, 79px 25px, 97px 45px, 81px 78px, 32px 76px);
+}
+
+
+@mixin blotsbalkrMixin(){
+  height: 224px;
+  width: 260px;
+  right: 498px;
+  top: 933px;
+  position: absolute;
+}
+.blotsbalkr {
+  @include blotsbalkrMixin;
+}
+.blotsbalkr-bg {
+  @include blotsbalkrMixin;
+  @include backgroundImage("map/hover_blotsbalkr.png");
+}
+.blotsbalkr-inner {
+  height: 224px;
+  width: 260px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(44px 32px, 169px 73px, 214px 115px, 232px 155px, 203px 197px, 179px 122px, 130px 102px, 102px 107px, 92px 90px, 32px 68px);
 }
