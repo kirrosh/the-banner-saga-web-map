@@ -102,7 +102,7 @@ export const mapObjects = [
 	{
         name: 'Brackish Sea',
         className: 'brackishSea',
-		text: 'Not much is said about the Brackish Sea, except for occasionally \"At least it\'s not the Brackish Sea\" or, \"As long as we don\'t end up in the Brackish Sea\". By no means the most treacherous waters, they are widely held as the least pleasant; thick as sludge and equally fragrant.'
+		text: 'Not much is said about the Brackish Sea, except for occasionally "At least it\'s not the Brackish Sea" or, "As long as we don\'t end up in the Brackish Sea". By no means the most treacherous waters, they are widely held as the least pleasant; thick as sludge and equally fragrant.'
     },
 	{
         name: 'Brattabreck Peaks',
@@ -602,7 +602,7 @@ export const mapObjects = [
 	{
         name: 'Rumfjord',
         className: 'rumfjord',
-		text: 'Rumfjord became a common phrase amongst varl, due to the astonishing amount of drink consumed as building materials were brought from Fastisetr to Skrymirstead, which would eventually become abandoned anyway. \"Going down Rumfjord\" is still used even now to denote a futile endeavor that is best done while thoroughly drunk.'
+		text: 'Rumfjord became a common phrase amongst varl, due to the astonishing amount of drink consumed as building materials were brought from Fastisetr to Skrymirstead, which would eventually become abandoned anyway. "Going down Rumfjord" is still used even now to denote a futile endeavor that is best done while thoroughly drunk.'
     },
 	{
         name: 'Schlid',
@@ -677,7 +677,7 @@ export const mapObjects = [
 	{
         name: 'Sten\'s March',
         className: 'stensMarch',
-		text: 'Not content to stop in Stromlund, a man named Sten hoped to find land as rich as Arberrang along the new coast. Instead, he found bog. All the way up the coast he went, until ice covered the trees. \"This is far enough,\" said Sten, and he stopped in Skogr.'
+		text: 'Not content to stop in Stromlund, a man named Sten hoped to find land as rich as Arberrang along the new coast. Instead, he found bog. All the way up the coast he went, until ice covered the trees. "This is far enough," said Sten, and he stopped in Skogr.'
     },
 	{
         name: 'Steppes of Silence',
@@ -687,7 +687,7 @@ export const mapObjects = [
 	{
         name: 'Stikill',
         className: 'stikill',
-		text: 'A wind-bitten city that the locals are known to refer to as \"Just a leaping sprint from Strand\" though there is little here to offer the trade city and is more likely just named after the fact that it stands at the top of a cliff, sporting a rusticly beautiful view of the ocean but little else.'
+		text: 'A wind-bitten city that the locals are known to refer to as "Just a leaping sprint from Strand" though there is little here to offer the trade city and is more likely just named after the fact that it stands at the top of a cliff, sporting a rusticly beautiful view of the ocean but little else.'
     },
 	{
         name: 'Stonehorn',
@@ -857,7 +857,7 @@ export const mapObjects = [
 	{
         name: 'Vedrfell',
         className: 'vedrfell',
-		text: 'Named \"bad weather\", the gales that blow in from the bay and around the mountain peaks keep Vedrfell in a generally unpleasant state. What really cemented the name was the kind of person who would live there; men cast out from Strand for one reason or another, with nowhere else to go.'
+		text: 'Named "bad weather", the gales that blow in from the bay and around the mountain peaks keep Vedrfell in a generally unpleasant state. What really cemented the name was the kind of person who would live there; men cast out from Strand for one reason or another, with nowhere else to go.'
     },
 	{
         name: 'Vetur Sea',

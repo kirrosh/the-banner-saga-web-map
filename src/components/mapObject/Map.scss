@@ -52,7 +52,7 @@
   left: 291px;
   top: 437px;
   position: absolute;
-  clip-path: polygon(106px 148px, 67px 34px, 243px 20px, 427px 68px, 564px 196px, 496px 266px, 367px 166px, 264px 137px);
+  clip-path: polygon(-25px 45px, 331px 29px, 577px 188px, 690px 180px, 540px 296px, 357px 163px, 331px 213px, 240px 243px, 220px 233px, 273px 140px, 28px 145px);
 }
 
 @mixin setterlundMixin(){
@@ -419,4 +419,159 @@
   position: absolute;
   z-index: 100;
   clip-path: polygon(44px 32px, 169px 73px, 214px 115px, 232px 155px, 203px 197px, 179px 122px, 130px 102px, 102px 107px, 92px 90px, 32px 68px);
+}
+
+@mixin blueRiverMixin(){
+  height: 125px;
+  width: 140px;
+  left: 672px;
+  bottom: 1186px;
+  position: absolute;
+}
+.blueRiver {
+  @include blueRiverMixin;
+}
+.blueRiver-bg {
+  @include blueRiverMixin;
+  @include backgroundImage("map/hover_blueriver.png");
+}
+.blueRiver-inner {
+  height: 125px;
+  width: 140px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 32px, 44px 24px, 67px 64px, 114px 78px, 109px 99px, 46px 75px);
+}
+
+@mixin boersgardMixin(){
+  height: 140px;
+  width: 300px;
+  left: 1791px;
+  bottom: 1045px;
+  position: absolute;
+}
+.boersgard {
+  @include boersgardMixin;
+}
+.boersgard-bg {
+  @include boersgardMixin;
+  @include backgroundImage("map/hover_boersgard.png");
+}
+.boersgard-inner {
+  height: 86px;
+  width: 242px;
+  top: 31px;
+  left: 29px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin bolunskrMixin(){
+  height: 123px;
+  width: 203px;
+  right: 1147px;
+  bottom: 785px;
+  position: absolute;
+}
+.bolunskr {
+  @include bolunskrMixin;
+}
+.bolunskr-bg {
+  @include bolunskrMixin;
+  @include backgroundImage("map/hover_bolunskr.png");
+}
+.bolunskr-inner {
+  height: 123px;
+  width: 203px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 71px, 133px 30px, 178px 44px, 182px 66px, 46px 99px);
+}
+
+@mixin brackishSeaMixin(){
+  height: 883px;
+  width: 504px;
+  right: 0px;
+  bottom: 47px;
+  position: absolute;
+}
+.brackishSea {
+  @include brackishSeaMixin;
+}
+.brackishSea-bg {
+  @include brackishSeaMixin;
+  @include backgroundImage("map/hover_brackishsea.png");
+}
+.brackishSea-inner {
+  height: 883px;
+  width: 504px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(144px 655px, 45px 493px, 39px 283px, 188px 97px, 372px 29px, 504px 46px, 504px 884px, 210px 655px);
+}
+
+@mixin brattabreckPeaksMixin(){
+  height: 397px;
+  width: 888px;
+  left: 1095px;
+  top: 1333px;
+  position: absolute;
+}
+.brattabreckPeaks {
+  @include brattabreckPeaksMixin;
+}
+.brattabreckPeaks-bg {
+  @include brattabreckPeaksMixin;
+  @include backgroundImage("map/hover_brattabreckpeaks.png");
+}
+.brattabreckPeaks-inner {
+  height: 397px;
+  width: 888px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(45px 258px, 158px 231px, 186px 172px, 533px 88px, 530px 36px, 614px 36px, 770px 69px, 845px 48px, 753px 111px, 770px 163px, 695px 184px, 644px 156px, 546px 193px, 447px 199px, 275px 249px, 33px 375px);
+}
+
+@mixin brunthalMixin(){
+  height: 101px;
+  width: 160px;
+  left: 908px;
+  bottom: 865px;
+  position: absolute;
+}
+.brunthal {
+  @include brunthalMixin;
+}
+.brunthal-bg {
+  @include brunthalMixin;
+  @include backgroundImage("map/hover_brunthal.png");
+}
+.brunthal-inner {
+  height: 101px;
+  width: 160px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(36px 24px, 125px 29px, 140px 60px, 86px 78px, 24px 53px);
+}
+
+@mixin burraPassMixin(){
+  height: 198px;
+  width: 181px;
+  left: 1828px;
+  top: 1338px;
+  position: absolute;
+}
+.burraPass {
+  @include burraPassMixin;
+}
+.burraPass-bg {
+  @include burraPassMixin;
+  @include backgroundImage("map/hover_burrapass.png");
+}
+.burraPass-inner {
+  height: 198px;
+  width: 181px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(34px 142px, 30px 105px, 91px 102px, 156px 27px, 115px 97px, 91px 139px, 60px 174px);
 }
