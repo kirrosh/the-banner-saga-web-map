@@ -66,12 +66,10 @@ class App extends Component {
                 }}
                 contentLabel={this.state.modalTitle}
             >
-                <div className='modal-inner-container'>
+                <div className='modal-inner-container'
+                    onClick={this.closeModal.bind(this)}>
                     <span className='modal-title'>{this.state.modalTitle}</span>
                     <span className='modal-text'>{this.state.modalText || ' '}</span>
-                    <span
-                        className='modal-close-btn'
-                        onClick={this.closeModal.bind(this)}>Close</span>
                 </div>
             </Modal>
         ]

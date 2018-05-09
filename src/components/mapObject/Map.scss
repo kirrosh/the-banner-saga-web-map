@@ -13,7 +13,7 @@
 @mixin wordanMixin(){
   width: 109px;
   height: 50px;
-  top: 195px;
+  top: 197px;
   left: 666px;
   position: absolute;
 }
@@ -574,4 +574,91 @@
   position: absolute;
   z-index: 100;
   clip-path: polygon(34px 142px, 30px 105px, 91px 102px, 156px 27px, 115px 97px, 91px 139px, 60px 174px);
+}
+
+@mixin cletbergMixin(){
+  height: 103px;
+  width: 141px;
+  left: 315px;
+  top: 179px;
+  position: absolute;
+}
+.cletberg {
+  @include cletbergMixin;
+}
+.cletberg-bg {
+  @include cletbergMixin;
+  @include backgroundImage("map/hover_cletberg.png");
+}
+.cletberg-inner {
+  height: 103px;
+  width: 141px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin cragsfjordsMixin(){
+  height: 128px;
+  width: 129px;
+  left: 1651px;
+  top: 818px;
+  position: absolute;
+}
+.cragsfjords {
+  @include cragsfjordsMixin;
+}
+.cragsfjords-bg {
+  @include cragsfjordsMixin;
+  @include backgroundImage("map/hover_cragsfjords.png");
+}
+.cragsfjords-inner {
+  height: 128px;
+  width: 129px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(43px 26px, 62px 60px, 106px 92px, 100px 105px, 49px 75px, 22px 33px);
+}
+
+@mixin crookRiverMixin(){
+  height: 118px;
+  width: 127px;
+  left: 214px;
+  bottom: 473px;
+  position: absolute;
+}
+.crookRiver {
+  @include crookRiverMixin;
+}
+.crookRiver-bg {
+  @include crookRiverMixin;
+  @include backgroundImage("map/hover_crookriver.png");
+}
+.crookRiver-inner {
+  height: 128px;
+  width: 129px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(28px 72px, 32px 24px, 52px 28px, 49px 62px, 99px 75px, 100px 96px);
+}
+
+@mixin crooksHollowMixin(){
+  height: 95px;
+  width: 148px;
+  right: 1319px;
+  bottom: 684px;
+  position: absolute;
+}
+.crooksHollow {
+  @include crooksHollowMixin;
+}
+.crooksHollow-bg {
+  @include crooksHollowMixin;
+  @include backgroundImage("map/hover_crookshollow.png");
+}
+.crooksHollow-inner {
+  height: 95px;
+  width: 148px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 63px, 51px 23px, 125px 54px, 120px 72px, 59px 47px, 38px 72px);
 }

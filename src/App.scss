@@ -48,15 +48,6 @@
   color: #d2cdbc;
 }
 
-.modal-close-btn{
-  font-size: 2vh;
-  position: absolute;
-  top: 2%;
-  right: 2%;
-  cursor: pointer;
-  color: #C93214;
-}
-
 .modal-overlay{
   position: fixed;
   z-index: 999;
@@ -64,7 +55,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .modal-content{
