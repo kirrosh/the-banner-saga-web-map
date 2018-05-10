@@ -331,6 +331,7 @@
   z-index: 100;
   clip-path: polygon(24px 74px, 68px 26px, 80px 37px, 34px 85px);
 }
+
 @mixin baaHarbourMixin(){
   height: 240px;
   width: 115px;
@@ -351,6 +352,28 @@
   position: absolute;
   z-index: 100;
   clip-path: polygon(63px 210px, 52px 128px, 26px 34px, 53px 28px, 80px 119px, 90px 210px);
+}
+
+@mixin backsfjordMixin(){
+  height: 103px;
+  width: 141px;
+  left: 637px;
+  top: 1864px;
+  position: absolute;
+}
+.backsfjord {
+  @include backsfjordMixin;
+}
+.backsfjord-bg {
+  @include backsfjordMixin;
+  @include backgroundImage("map/hover_backsfjord.png");
+}
+.backsfjord-inner {
+  height: 103px;
+  width: 141px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(30px 58px, 114px 26px, 119px 46px, 34px 83px);
 }
 
 @mixin bindalMixin(){
@@ -514,7 +537,7 @@
   height: 397px;
   width: 888px;
   left: 1095px;
-  top: 1333px;
+  top: 1331px;
   position: absolute;
 }
 .brattabreckPeaks {
@@ -535,8 +558,8 @@
 @mixin brunthalMixin(){
   height: 101px;
   width: 160px;
-  left: 908px;
-  bottom: 865px;
+  left: 909px;
+  bottom: 866px;
   position: absolute;
 }
 .brunthal {
@@ -661,4 +684,360 @@
   position: absolute;
   z-index: 100;
   clip-path: polygon(25px 63px, 51px 23px, 125px 54px, 120px 72px, 59px 47px, 38px 72px);
+}
+
+@mixin dainnStonesMixin(){
+  height: 125px;
+  width: 159px;
+  top: 1680px;
+  left: 1705px;
+  position: absolute;
+}
+.dainnStones {
+  @include dainnStonesMixin;
+}
+.dainnStones-bg {
+  @include dainnStonesMixin;
+  @include backgroundImage("map/hover_dainnstones.png");
+}
+.dainnStones-inner {
+  height: 125px;
+  width: 159px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(28px 40px, 48px 28px, 83px 28px, 135px 53px, 135px 86px, 89px 102px, 71px 64px, 25px 64px);
+}
+
+@mixin deeplunnMixin(){
+  height: 266px;
+  width: 375px;
+  right: 1207px;
+  bottom: 797px;
+  position: absolute;
+}
+.deeplunn {
+  @include deeplunnMixin;
+}
+.deeplunn-bg {
+  @include deeplunnMixin;
+  @include backgroundImage("map/hover_deeplunn.png");
+}
+.deeplunn-inner {
+  height: 266px;
+  width: 375px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(45px 129px, 131px 97px, 203px 21px, 318px 78px, 351px 201px, 125px 235px, 18px 222px);
+}
+
+@mixin deepmotMixin(){
+  height: 79px;
+  width: 125px;
+  right: 1519px;
+  bottom: 1012px;
+  position: absolute;
+}
+.deepmot {
+  @include deepmotMixin;
+}
+.deepmot-bg {
+  @include deepmotMixin;
+  @include backgroundImage("map/hover_deepmot.png");
+}
+.deepmot-inner {
+  height: 25px;
+  width: 70px;
+  right: 27px;
+  bottom: 27px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin denglrsBayMixin(){
+  height: 168px;
+  width: 207px;
+  top: 1610px;
+  left: 705px;
+  position: absolute;
+}
+.denglrsBay {
+  @include denglrsBayMixin;
+}
+.denglrsBay-bg {
+  @include denglrsBayMixin;
+  @include backgroundImage("map/hover_denglrsbay.png");
+}
+.denglrsBay-inner {
+  height: 168px;
+  width: 207px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 96px, 170px 21px, 182px 48px, 147px 122px, 96px 141px, 41px 128px);
+}
+
+@mixin downsCrossingMixin(){
+  height: 239px;
+  width: 723px;
+  bottom: 317px;
+  left: 891px;
+  position: absolute;
+}
+.downsCrossing {
+  @include downsCrossingMixin;
+}
+.downsCrossing-bg {
+  @include downsCrossingMixin;
+  @include backgroundImage("map/hover_downscrossing.png");
+}
+.downsCrossing-inner {
+  height: 239px;
+  width: 723px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 200px, 124px 165px, 287px 140px, 485px 153px, 695px 20px, 697px 32px, 510px 186px, 378px 176px, 250px 156px, 28px 211px);
+}
+
+@mixin dundrsBeardMixin(){
+  height: 136px;
+  width: 183px;
+  top: 141px;
+  right: 1180px;
+  position: absolute;
+}
+.dundrsBeard {
+  @include dundrsBeardMixin;
+}
+.dundrsBeard-bg {
+  @include dundrsBeardMixin;
+  @include backgroundImage("map/hover_dundrsbeard.png");
+}
+.dundrsBeard-inner {
+  height: 87px;
+  width: 139px;
+  top:27px;
+  left:22px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin eaglehornMixin(){
+  height: 132px;
+  width: 168px;
+  bottom: 1057px;
+  left: 166px;
+  position: absolute;
+}
+.eaglehorn {
+  @include eaglehornMixin;
+}
+.eaglehorn-bg {
+  @include eaglehornMixin;
+  @include backgroundImage("map/hover_eaglehorn.png");
+}
+.eaglehorn-inner {
+  height: 132px;
+  width: 168px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(38px 52px, 83px 24px, 135px 33px, 145px 53px, 95px 109px, 25px 104px);
+}
+
+@mixin eastFingerRiverMixin(){
+  height: 101px;
+  width: 155px;
+  top: 1801px;
+  right: 642px;
+  position: absolute;
+}
+.eastFingerRiver {
+  @include eastFingerRiverMixin;
+}
+.eastFingerRiver-bg {
+  @include eastFingerRiverMixin;
+  @include backgroundImage("map/hover_eastfingerriver.png");
+}
+.eastFingerRiver-inner {
+  height: 101px;
+  width: 155px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(27px 63px, 57px 49px, 71px 33px, 97px 38px, 120px 25px, 128px 41px, 100px 55px, 79px 47px, 73px 59px, 31px 76px);
+}
+
+@mixin eastwayRoadMixin(){
+  height: 414px;
+  width: 1248px;
+  bottom: 830px;
+  left: 512px;
+  position: absolute;
+}
+.eastwayRoad {
+  @include eastwayRoadMixin;
+}
+.eastwayRoad-bg {
+  @include eastwayRoadMixin;
+  @include backgroundImage("map/hover_eastwayroad.png");
+}
+.eastwayRoad-inner {
+  height: 414px;
+  width: 1248px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(34px 372px, 151px 346px, 238px 352px, 280px 347px, 320px 354px, 402px 330px, 506px 359px, 650px 288px, 780px 246px, 956px 198px, 995px 156px, 1040px 123px, 1094px 100px, 1151px 44px, 1223px 28px, 1227px 39px, 1155px 56px, 1103px 112px, 1046px 134px, 1020px 172px, 955px 214px, 731px 306px, 507px 378px, 400px 347px, 322px 368px, 280px 358px, 240px 366px, 152px 360px, 31px 388px);
+}
+
+@mixin langLoomForestMixin(){
+  height: 586px;
+  width: 723px;
+  bottom: 1111px;
+  right: 845px;
+  position: absolute;
+}
+.langLoomForest {
+  @include langLoomForestMixin;
+}
+.langLoomForest-bg {
+  @include langLoomForestMixin;
+  @include backgroundImage("map/hover_langloomforest.png");
+}
+.langLoomForest-inner {
+  height: 586px;
+  width: 723px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 498px, 87px 388px, 198px 302px, 279px 323px, 348px 301px, 321px 207px, 354px 181px, 429px 156px, 533px 29px, 555px 30px, 706px 155px, 545px 345px, 463px 365px, 385px 498px, 216px 538px);
+}
+
+@mixin eastWickMixin(){
+  height: 101px;
+  width: 112px;
+  top: 1768px;
+  right: 524px;
+  position: absolute;
+}
+.eastWick {
+  @include eastWickMixin;
+}
+.eastWick-bg {
+  @include eastWickMixin;
+  @include backgroundImage("map/hover_eastwick.png");
+}
+.eastWick-inner {
+  height: 101px;
+  width: 112px;
+  left:26px;
+  top:23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin einartoftMixin(){
+  height: 140px;
+  width: 236px;
+  top: 1468px;
+  right: 1395px;
+  position: absolute;
+}
+.einartoft {
+  @include einartoftMixin;
+}
+.einartoft-bg {
+  @include einartoftMixin;
+  @include backgroundImage("map/hover_einartoft.png");
+}
+.einartoft-inner {
+  height: 140px;
+  width: 236px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(33px 40px, 194px 31px, 184px 59px, 74px 66px, 60px 112px, 28px 102px);
+}
+
+@mixin etiltorpMixin(){
+  height: 151px;
+  width: 184px;
+  bottom: 723px;
+  right: 1542px;
+  position: absolute;
+}
+.etiltorp {
+  @include etiltorpMixin;
+}
+.etiltorp-bg {
+  @include etiltorpMixin;
+  @include backgroundImage("map/hover_etiltorp.png");
+}
+.etiltorp-inner {
+  height: 151px;
+  width: 184px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(30px 58px, 119px 22px, 161px 98px, 150px 130px, 31px 80px);
+}
+
+@mixin etingbekkrMixin(){
+  height: 104px;
+  width: 229px;
+  bottom: 601px;
+  left: 902px;
+  position: absolute;
+}
+.etingbekkr {
+  @include etingbekkrMixin;
+}
+.etingbekkr-bg {
+  @include etingbekkrMixin;
+  @include backgroundImage("map/hover_etingbekkr.png");
+}
+.etingbekkr-inner {
+  height: 50px;
+  width: 175px;
+  left: 27px;
+  top: 27px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin fastisetrMixin(){
+  height: 167px;
+  width: 201px;
+  top: 1203px;
+  left: 1343px;
+  position: absolute;
+}
+.fastisetr {
+  @include fastisetrMixin;
+}
+.fastisetr-bg {
+  @include fastisetrMixin;
+  @include backgroundImage("map/hover_fastisetr.png");
+}
+.fastisetr-inner {
+  height: 167px;
+  width: 201px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(29px 65px, 99px 83px, 154px 30px, 176px 35px, 140px 138px, 50px 124px);
+}
+
+@mixin fieldgateMixin(){
+  height: 101px;
+  width: 112px;
+  bottom: 616px;
+  left: 376px;
+  position: absolute;
+}
+.fieldgate {
+  @include fieldgateMixin;
+}
+.fieldgate-bg {
+  @include fieldgateMixin;
+  @include backgroundImage("map/hover_fieldgate.png");
+}
+.fieldgate-inner {
+  height: 101px;
+  width: 112px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 32px, 45px 25px, 77px 34px, 89px 56px, 53px 77px);
 }

@@ -70,6 +70,11 @@ export const mapObjects = [
 		text: 'The point at which mankind summarily stopped trying to settle to the east was the tip of Baa Harbour, where the water was considered fit to wash in, but only if you really had to. The mess of ice and rocky crags discouraged anyone interested in sailing longships casually down the coast.'
     },
 	{
+        name: 'Backsfjord',
+        className: 'backsfjord',
+		text: 'Ironically, the Backsfjord actually runs off from the front of Strand. It finds little use as a merchant lane, though occasionally unscrupulous types use it to ferry goods they\'re worried about losing to a place that few people are likely to look.'
+    },
+	{
         name: 'Bindal',
         className: 'bindal',
 		text: 'Once named Blindradalr, this mining city is tucked into a valley at the foot of the Wyrmscale Mountains. Much like the rock here, the name seems to have eroded into something smoother. It serves as an important pass between the human cities of the East and West, when it isn\'t shut down by blinding snowstorms.'
@@ -395,6 +400,7 @@ export const mapObjects = [
 		text: 'Not within stone crypts, but in the fields before Grofheim are laid to rest the greatest warriors and kings of the varl, where all who come and go from the great city may see them. All varl consider it an honor and a duty to one day be buried in the graves of King\'s Barrow, where their bones become the stone of the Varlsmarch.'
     },
 	{
+    // ---------- Skip ----------
         name: 'Lang Loom Forest',
         className: 'langLoomForest',
 		text: 'The most sprawling forest known to man or varl, the Lang Loom is often remembered for having occasional rows of perfectly lined trees that look out of place in the middle of the wilderness, as if they had been carefully planted or even placed. Many suppose the Loom-mother planted the trees herself and the rest instantly sprang up around them, but the Lang Loom is a dangerous place that rarely harkens back to the image of the Loom-mother.'

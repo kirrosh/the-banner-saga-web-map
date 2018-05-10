@@ -58,6 +58,16 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.modal-close-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: #d2cdbc;
+  height:20%;
+  clip-path: circle(20px at 50% 50%);
+}
+
 .modal-content{
   position: absolute;
   top: 25%;
@@ -69,5 +79,5 @@
   overflow: auto;
   outline: none;
   border: 20px solid transparent;
-  border-image: url("assets/poppening_art.png") 20 round ;
+  border-image: url("assets/poppening_art.png") 20 round;
 }
