@@ -311,7 +311,7 @@ export const mapObjects = [
     },
 	{
         name: 'Graywater Sea',
-        className: 'graywater Sea',
+        className: 'graywaterSea',
 		text: 'While the Gruin Sea may be a miserable body of water, at least it is not literally gray. The same cannot be said of the Graywater Sea, which, ringed in most directions by swamp marsh, is a nearly motionless stew of gray sludge.'
     },
 	{
