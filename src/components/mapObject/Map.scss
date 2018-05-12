@@ -949,7 +949,7 @@
   height: 140px;
   width: 236px;
   position: absolute;
-  z-index: 100;
+  z-index: 101;
   clip-path: polygon(33px 40px, 194px 31px, 184px 59px, 74px 66px, 60px 112px, 28px 102px);
 }
 
@@ -979,7 +979,7 @@
   height: 104px;
   width: 229px;
   bottom: 601px;
-  left: 902px;
+  left: 901px;
   position: absolute;
 }
 .etingbekkr {
@@ -995,7 +995,7 @@
   left: 27px;
   top: 27px;
   position: absolute;
-  z-index: 100;
+  z-index: 101;
 }
 
 @mixin fastisetrMixin(){
@@ -1606,12 +1606,11 @@
   clip-path: polygon(170px 17px, 188px 18px, 152px 87px, 107px 125px, 20px 80px);
 }
 
-/*135
-@m226ixin halsarMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+@mixin halsarMixin(){
+  height: 141px;
+  width: 162px;
+  bottom: 1247px;
+  left: 1531px;
   position: absolute;}
 
 .halsar {
@@ -1623,12 +1622,13 @@
 }
 
 .halsar-inner {
-  height: px;
-  width: px;
+  height: 141px;
+  width: 162px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(27px 85px, 116px 40px, 139px 57px, 94px 98px, 33px 115px);
 }
+/*
 @mixin haukstorpMixin(){
   height: px;
   width: px;
@@ -2022,7 +2022,7 @@
   height: px;
   width: px;
   position: absolute;
-  z-index: 100;
+  z-index: 101;
   clip-path: polygon();
 }
 @mixin manaharrMixin(){
@@ -2905,11 +2905,12 @@
   z-index: 100;
   clip-path: polygon();
 }
+*/
 @mixin southfjordMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 139px;
+  width: 130px;
+  bottom: 549px;
+  left: 545px;
   position: absolute;}
 
 .southfjord {
@@ -2921,18 +2922,20 @@
 }
 
 .southfjord-inner {
-  height: px;
-  width: px;
+  height: 139px;
+  width: 130px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(34px 73px, 98px 26px, 110px 39px, 55px 79px, 42px 115px, 27px 111px);
 }
+
 @mixin spineIslesMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 100px;
+  width: 174px;
+  bottom: 1567px;
+  left: 514px;
+  position: absolute;
+}
 
 .spineIsles {
   @include spineIslesMixin;
@@ -2943,39 +2946,44 @@
 }
 
 .spineIsles-inner {
-  height: px;
-  width: px;
+  height: 54px;
+  width: 128px;
+  top:26px;
+  left: 26px;
   position: absolute;
   z-index: 100;
   clip-path: polygon();
 }
+
 @mixin spiritsOfTheWaterMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 271px;
+  width: 141px;
+  bottom: 1317px;
+  right: 314px;
+  position: absolute;
+}
 
 .spiritsOfTheWater {
   @include spiritsOfTheWaterMixin;
 }
 .spiritsOfTheWater-bg {
   @include spiritsOfTheWaterMixin;
-  @include backgroundImage("map/hover_spiritsofthewater.png");
+  @include backgroundImage("map/hover_waterspirit.png");
 }
 
 .spiritsOfTheWater-inner {
-  height: px;
-  width: px;
+  height: 271px;
+  width: 141px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(71px 209px, 80px 124px, 26px 84px, 33px 33px, 91px 29px, 124px 110px, 95px 214px, 101px 247px, 80px 247px);
 }
+
 @mixin stemMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 108px;
+  width: 118px;
+  top: 446px;
+  right: 940px;
   position: absolute;}
 
 .stem {
@@ -2987,17 +2995,19 @@
 }
 
 .stem-inner {
-  height: px;
-  width: px;
+  height: 62px;
+  width: 72px;
+  left: 26px;
+  top: 26px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
 }
+
 @mixin stensMarchMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 1009px;
+  width: 1023px;
+  bottom: 1165px;
+  right: 621px;
   position: absolute;}
 
 .stensMarch {
@@ -3009,17 +3019,18 @@
 }
 
 .stensMarch-inner {
-  height: px;
-  width: px;
+  height: 1009px;
+  width: 1023px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(25px 972px, 91px 924px, 171px 838px, 535px 534px, 569px 382px, 675px 352px, 703px 292px, 861px 208px, 885px 102px, 1003px 24px, 965px 86px, 911px 114px, 891px 222px, 727px 310px, 701px 378px, 583px 426px, 549px 560px, 291px 778px, 183px 852px, 107px 948px, 29px 984px);
 }
+
 @mixin steppesOfSilenceMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 161px;
+  width: 197px;
+  top: 855px;
+  right: 1281px;
   position: absolute;}
 
 .steppesOfSilence {
@@ -3031,17 +3042,18 @@
 }
 
 .steppesOfSilence-inner {
-  height: px;
-  width: px;
+  height: 161px;
+  width: 197px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(47px 79px, 121px 30px, 171px 31px, 167px 54px, 114px 61px, 69px 96px, 41px 138px, 21px 132px);
 }
+
 @mixin stikillMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 120px;
+  width: 159px;
+  bottom: 1304px;
+  left: 568px;
   position: absolute;}
 
 .stikill {
@@ -3053,18 +3065,20 @@
 }
 
 .stikill-inner {
-  height: px;
-  width: px;
+  height: 120px;
+  width: 159px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(57px 27px, 104px 37px, 135px 67px, 128px 98px, 74px 59px, 24px 43px);
 }
+
 @mixin stonehornMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 128px;
+  width: 147px;
+  top: 1180px;
+  left: 1079px;
+  position: absolute;
+}
 
 .stonehorn {
   @include stonehornMixin;
@@ -3075,17 +3089,18 @@
 }
 
 .stonehorn-inner {
-  height: px;
-  width: px;
+  height: 128px;
+  width: 147px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(15px 57px, 119px 24px, 112px 95px, 74px 104px);
 }
+
 @mixin straitOfHarrowsMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 134px;
+  width: 377px;
+  top: 121px;
+  left: 1592px;
   position: absolute;}
 
 .straitOfHarrows {
@@ -3097,17 +3112,19 @@
 }
 
 .straitOfHarrows-inner {
-  height: px;
-  width: px;
+  height: 82px;
+  width: 325px;
+  top:26px;
+  left:26px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
 }
+
 @mixin strandMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 263px;
+  width: 339px;
+  bottom: 1426px;
+  left: 784px;
   position: absolute;}
 
 .strand {
@@ -3119,17 +3136,18 @@
 }
 
 .strand-inner {
-  height: px;
-  width: px;
+  height: 263px;
+  width: 339px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(51px 128px, 26px 33px, 57px 27px, 81px 68px, 312px 205px, 314px 237px, 229px 232px, 43px 175px);
 }
+
 @mixin summerPathMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 687px;
+  width: 261px;
+  top: 1307px;
+  right: 1200px;
   position: absolute;}
 
 .summerPath {
@@ -3141,17 +3159,18 @@
 }
 
 .summerPath-inner {
-  height: px;
-  width: px;
+  height: 687px;
+  width: 261px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(118px 603px, 38px 487px, 49px 375px, 191px 190px, 113px 162px, 99px 43px, 113px 40px, 134px 151px, 196px 170px, 238px 236px, 71px 381px, 65px 482px, 126px 587px, 189px 648px, 174px 658px);
 }
+
 @mixin sweinnsfeedMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 518px;
+  width: 268px;
+  bottom: 732px;
+  right: 554px;
   position: absolute;}
 
 .sweinnsfeed {
@@ -3163,17 +3182,18 @@
 }
 
 .sweinnsfeed-inner {
-  height: px;
-  width: px;
+  height: 518px;
+  width: 268px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path:  polygon(128px 256px, 81px 137px, 34px 45px, 161px 18px, 223px 79px, 245px 380px, 208px 497px, 136px 472px, 111px 385px);
 }
+
 @mixin theAnvilMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 98px;
+  width: 102px;
+  top: 503px;
+  right: 1234px;
   position: absolute;}
 
 .theAnvil {
@@ -3185,18 +3205,21 @@
 }
 
 .theAnvil-inner {
-  height: px;
-  width: px;
+  height: 46px;
+  width: 50px;
+  top: 26px;
+  left: 26px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
 }
+
 @mixin theArmsbeckMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 113px;
+  width: 160px;
+  bottom: 680px;
+  right: 668px;
+  position: absolute;
+}
 
 .theArmsbeck {
   @include theArmsbeckMixin;
@@ -3207,62 +3230,68 @@
 }
 
 .theArmsbeck-inner {
-  height: px;
-  width: px;
+  height: 113px;
+  width: 160px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(24px 48px, 47px 26px, 92px 34px, 136px 71px, 130px 91px, 108px 78px, 76px 44px, 36px 57px);
 }
+
 @mixin theCardinalDirectionsMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 1152px;
+  width: 1014px;
+  top: 377px;
+  left: 63px;
+  position: absolute;
+}
 
 .theCardinalDirections {
   @include theCardinalDirectionsMixin;
 }
 .theCardinalDirections-bg {
   @include theCardinalDirectionsMixin;
-  @include backgroundImage("map/hover_thecardinaldirections.png");
+  @include backgroundImage("map/hover_nsew.png");
 }
 
 .theCardinalDirections-inner {
-  height: px;
-  width: px;
+  height: 1152px;
+  width: 1014px;
   position: absolute;
-  z-index: 100;
-  clip-path: polygon();
+  z-index: 101;
+  clip-path: polygon(21px 505px, 139px 141px, 569px 1px, 921px 201px, 985px 577px, 775px 865px, 593px 965px, 231px 891px);
 }
+
 @mixin theConstellationsMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 572px;
+  width: 1339px;
+  top: 158px;
+  left: 0;
+  position: absolute;
+}
 
 .theConstellations {
   @include theConstellationsMixin;
 }
 .theConstellations-bg {
   @include theConstellationsMixin;
-  @include backgroundImage("map/hover_theconstellations.png");
+  @include backgroundImage("map/hover_stars.png");
 }
 
 .theConstellations-inner {
-  height: px;
-  width: px;
+  height: 572px;
+  width: 1339px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(0px 275px, 0px 192px, 171px 231px, 589px 89px, 990px 312px, 1054px 279px, 1146px 8px, 1230px 21px, 1156px 305px, 1344px 524px, 1263px 582px, 1081px 375px, 990px 410px, 591px 194px, 195px 330px);
 }
+
 @mixin theForkMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 107px;
+  width: 113px;
+  top: 1071px;
+  left: 1258px;
+  position: absolute;
+}
 
 .theFork {
   @include theForkMixin;
@@ -3273,18 +3302,20 @@
 }
 
 .theFork-inner {
-  height: px;
-  width: px;
+  height: 107px;
+  width: 113px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(77px 27px, 92px 39px, 38px 83px, 26px 69px);
 }
+
 @mixin theGodsreachHillsMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 283px;
+  width: 516px;
+  bottom: 884px;
+  left: 811px;
+  position: absolute;
+}
 
 .theGodsreachHills {
   @include theGodsreachHillsMixin;
@@ -3295,18 +3326,20 @@
 }
 
 .theGodsreachHills-inner {
-  height: px;
-  width: px;
+  height: 283px;
+  width: 516px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(119px 148px, 171px 131px, 220px 70px, 193px 44px, 287px 29px, 495px 118px, 399px 153px, 262px 200px, 131px 224px, 125px 240px, 22px 255px);
 }
+
 @mixin theGreatLoomMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 295px;
+  width: 608px;
+  bottom: 1119px;
+  left: 1048px;
+  position: absolute;
+}
 
 .theGreatLoom {
   @include theGreatLoomMixin;
@@ -3317,18 +3350,20 @@
 }
 
 .theGreatLoom-inner {
-  height: px;
-  width: px;
+  height: 295px;
+  width: 608px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(139px 136px, 216px 85px, 529px 24px, 579px 78px, 435px 133px, 435px 167px, 485px 202px, 202px 223px, 122px 268px, 22px 258px);
 }
+
 @mixin theHammerMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 130px;
+  width: 127px;
+  top: 389px;
+  right: 1227px;
+  position: absolute;
+}
 
 .theHammer {
   @include theHammerMixin;
@@ -3339,18 +3374,20 @@
 }
 
 .theHammer-inner {
-  height: px;
-  width: px;
+  height: 130px;
+  width: 127px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(23px 37px, 37px 24px, 101px 91px, 95px 105px);
 }
+
 @mixin theHangedManMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 172px;
+  width: 153px;
+  top: 1473px;
+  left: 977px;
+  position: absolute;
+}
 
 .theHangedMan {
   @include theHangedManMixin;
@@ -3361,17 +3398,18 @@
 }
 
 .theHangedMan-inner {
-  height: px;
-  width: px;
+  height: 172px;
+  width: 153px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(28px 96px, 24px 76px, 52px 33px, 101px 28px, 129px 53px, 106px 155px);
 }
+
 @mixin theIronpeatWashMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 423px;
+  width: 873px;
+  bottom: 476px;
+  right: 641px;
   position: absolute;}
 
 .theIronpeatWash {
@@ -3383,17 +3421,18 @@
 }
 
 .theIronpeatWash-inner {
-  height: px;
-  width: px;
+  height: 423px;
+  width: 873px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(224px 162px, 239px 159px, 267px 231px, 340px 250px, 600px 167px, 656px 179px, 558px 266px, 297px 266px, 246px 242px);
 }
+
 @mixin theLeftFootMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 168px;
+  width: 101px;
+  top: 1771px;
+  left: 714px;
   position: absolute;}
 
 .theLeftFoot {
@@ -3405,18 +3444,20 @@
 }
 
 .theLeftFoot-inner {
-  height: px;
-  width: px;
+  height: 168px;
+  width: 101px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(47px 82px, 25px 26px, 47px 25px, 69px 81px, 74px 140px, 55px 141px);
 }
+
 @mixin theLongReachMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 296px;
+  width: 279px;
+  top: 1323px;
+  left: 764px;
+  position: absolute;
+}
 
 .theLongReach {
   @include theLongReachMixin;
@@ -3427,18 +3468,20 @@
 }
 
 .theLongReach-inner {
-  height: px;
-  width: px;
+  height: 296px;
+  width: 279px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(56px 183px, 32px 167px, 115px 30px, 239px 32px, 247px 99px, 191px 120px, 34px 280px);
 }
+
 @mixin theOldWoodMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 393px;
+  width: 483px;
+  bottom: 490px;
+  left: 640px;
+  position: absolute;
+}
 
 .theOldWood {
   @include theOldWoodMixin;
@@ -3449,17 +3492,18 @@
 }
 
 .theOldWood-inner {
-  height: px;
-  width: px;
+  height: 393px;
+  width: 483px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(36px 231px, 104px 201px, 126px 147px, 359px 31px, 426px 36px, 453px 139px, 451px 207px, 381px 250px, 389px 307px, 377px 354px, 292px 365px, 77px 333px, 26px 277px);
 }
+
 @mixin theRedRiverMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 112px;
+  width: 148px;
+  top: 1822px;
+  left: 975px;
   position: absolute;}
 
 .theRedRiver {
@@ -3467,22 +3511,24 @@
 }
 .theRedRiver-bg {
   @include theRedRiverMixin;
-  @include backgroundImage("map/hover_theredriver.png");
+  @include backgroundImage("map/hover_redriver.png");
 }
 
 .theRedRiver-inner {
-  height: px;
-  width: px;
+  height: 112px;
+  width: 148px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(29px 32px, 102px 26px, 126px 82px, 113px 89px, 89px 43px, 31px 53px);
 }
+
 @mixin theRightFootMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 106px;
+  width: 188px;
+  top: 1725px;
+  left: 771px;
+  position: absolute;
+}
 
 .theRightFoot {
   @include theRightFootMixin;
@@ -3493,18 +3539,20 @@
 }
 
 .theRightFoot-inner {
-  height: px;
-  width: px;
+  height: 106px;
+  width: 188px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(31px 25px, 109px 57px, 160px 63px, 156px 78px, 103px 73px, 27px 45px);
 }
+
 @mixin theRiverRakeMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 196px;
+  width: 112px;
+  bottom: 981px;
+  right: 706px;
+  position: absolute;
+}
 
 .theRiverRake {
   @include theRiverRakeMixin;
@@ -3515,18 +3563,22 @@
 }
 
 .theRiverRake-inner {
-  height: px;
-  width: px;
+  height: 144px;
+  width: 60px;
+  top:26px;
+  left:26px;
   position: absolute;
   z-index: 100;
   clip-path: polygon();
 }
+
 @mixin theRoeWashMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 230px;
+  width: 217px;
+  bottom: 447px;
+  right: 1374px;
+  position: absolute;
+}
 
 .theRoeWash {
   @include theRoeWashMixin;
@@ -3537,18 +3589,20 @@
 }
 
 .theRoeWash-inner {
-  height: px;
-  width: px;
+  height: 230px;
+  width: 217px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(116px 149px, 24px 36px, 43px 29px, 195px 189px, 165px 205px, 97px 197px);
 }
+
 @mixin theRottingRootsMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 89px;
+  width: 187px;
+  bottom: 106px;
+  right: 1217px;
+  position: absolute;
+}
 
 .theRottingRoots {
   @include theRottingRootsMixin;
@@ -3559,18 +3613,20 @@
 }
 
 .theRottingRoots-inner {
-  height: px;
-  width: px;
+  height: 89px;
+  width: 187px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(31px 25px, 85px 41px, 161px 45px, 157px 63px, 81px 57px, 27px 41px);
 }
+
 @mixin theSkyIronsMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 241px;
+  width: 340px;
+  top: 782px;
+  right: 870px;
+  position: absolute;
+}
 
 .theSkyIrons {
   @include theSkyIronsMixin;
@@ -3581,18 +3637,20 @@
 }
 
 .theSkyIrons-inner {
-  height: px;
-  width: px;
+  height: 241px;
+  width: 340px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(99px 150px, 218px 46px, 322px 29px, 232px 164px, 113px 213px, 27px 200px);
 }
+
 @mixin theSpearMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 228px;
+  width: 116px;
+  top: 1018px;
+  right: 251px;
+  position: absolute;
+}
 
 .theSpear {
   @include theSpearMixin;
@@ -3603,18 +3661,21 @@
 }
 
 .theSpear-inner {
-  height: px;
-  width: px;
+  height: 176px;
+  width: 64px;
+  top:26px;
+  left:26px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
 }
+
 @mixin theStankharThreadsMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 160px;
+  width: 214px;
+  bottom: 204px;
+  right: 946px;
+  position: absolute;
+}
 
 .theStankharThreads {
   @include theStankharThreadsMixin;
@@ -3625,18 +3686,20 @@
 }
 
 .theStankharThreads-inner {
-  height: px;
-  width: px;
+  height: 160px;
+  width: 214px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(25px 125px, 82px 77px, 94px 32px, 186px 31px, 189px 47px, 110px 50px, 101px 89px, 33px 135px);
 }
+
 @mixin theTwinRiversMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 181px;
+  width: 88px;
+  top: 1140px;
+  left: 959px;
+  position: absolute;
+}
 
 .theTwinRivers {
   @include theTwinRiversMixin;
@@ -3647,18 +3710,21 @@
 }
 
 .theTwinRivers-inner {
-  height: px;
-  width: px;
+  height: 129px;
+  width: 36px;
+  top:26px;
+  left:26px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
 }
+
 @mixin theUndeepMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 128px;
+  width: 129px;
+  bottom: 1006px;
+  left: 505px;
+  position: absolute;
+}
 
 .theUndeep {
   @include theUndeepMixin;
@@ -3669,18 +3735,20 @@
 }
 
 .theUndeep-inner {
-  height: px;
-  width: px;
+  height: 128px;
+  width: 129px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(33px 49px, 26px 34px, 63px 25px, 105px 93px, 86px 104px, 53px 51px);
 }
+
 @mixin theVarlsmarchMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 407px;
+  width: 1039px;
+  top: 1044px;
+  left: 1097px;
+  position: absolute;
+}
 
 .theVarlsmarch {
   @include theVarlsmarchMixin;
@@ -3691,18 +3759,20 @@
 }
 
 .theVarlsmarch-inner {
-  height: px;
-  width: px;
+  height: 407px;
+  width: 1039px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(122px 316px, 272px 325px, 304px 288px, 392px 302px, 404px 240px, 506px 203px, 526px 155px, 647px 175px, 764px 151px, 725px 117px, 765px 75px, 1016px 21px, 971px 105px, 784px 185px, 650px 182px, 397px 332px, 150px 381px, 24px 377px);
 }
+
 @mixin theVastMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 2029px;
+  width: 570px;
+  top: 456px;
+  left: 2px;
+  position: absolute;
+}
 
 .theVast {
   @include theVastMixin;
@@ -3713,17 +3783,18 @@
 }
 
 .theVast-inner {
-  height: px;
-  width: px;
+  height: 2029px;
+  width: 570px;
   position: absolute;
-  z-index: 100;
-  clip-path: polygon();
+  z-index: 101;
+  clip-path: polygon(0px 1473px, 374px 639px, 0px 279px, 0px 0px, 545px 492px, 539px 885px, 0px 2028px);
 }
+
 @mixin theWanderingRoadMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 313px;
+  width: 817px;
+  top: 1478px;
+  left: 1096px;
   position: absolute;}
 
 .theWanderingRoad {
@@ -3735,18 +3806,20 @@
 }
 
 .theWanderingRoad-inner {
-  height: px;
-  width: px;
+  height: 313px;
+  width: 817px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(151px 250px, 186px 172px, 278px 152px, 441px 59px, 683px 52px, 743px 48px, 790px 32px, 753px 62px, 670px 99px, 473px 100px, 259px 261px, 170px 287px, 114px 278px, 28px 275px);
 }
+
 @mixin tinsfountMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 96px;
+  width: 109px;
+  bottom: 463px;
+  left: 1392px;
+  position: absolute;
+}
 
 .tinsfount {
   @include tinsfountMixin;
@@ -3757,18 +3830,20 @@
 }
 
 .tinsfount-inner {
-  height: px;
-  width: px;
+  height: 96px;
+  width: 109px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(54px 28px, 84px 30px, 74px 70px, 42px 63px, 22px 49px);
 }
+
 @mixin tistelMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 102px;
+  width: 150px;
+  bottom: 1199px;
+  right: 1161px;
+  position: absolute;
+}
 
 .tistel {
   @include tistelMixin;
@@ -3779,18 +3854,20 @@
 }
 
 .tistel-inner {
-  height: px;
-  width: px;
+  height: 102px;
+  width: 150px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(26px 68px, 48px 49px, 117px 23px, 124px 49px, 29px 80px);
 }
+
 @mixin tolirMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 120px;
+  width: 172px;
+  bottom: 613px;
+  left: 498px;
+  position: absolute;
+}
 
 .tolir {
   @include tolirMixin;
@@ -3801,18 +3878,20 @@
 }
 
 .tolir-inner {
-  height: px;
-  width: px;
+  height: 120px;
+  width: 172px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(26px 53px, 97px 25px, 149px 48px, 105px 96px, 41px 76px);
 }
+
 @mixin toothpickWoodMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 153px;
+  width: 306px;
+  bottom: 1081px;
+  left: 1559px;
+  position: absolute;
+}
 
 .toothpickWood {
   @include toothpickWoodMixin;
@@ -3823,17 +3902,18 @@
 }
 
 .toothpickWood-inner {
-  height: px;
-  width: px;
+  height: 153px;
+  width: 306px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(83px 82px, 106px 47px, 166px 29px, 282px 60px, 264px 99px, 25px 122px);
 }
+
 @mixin transportationMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 106px;
+  width: 131px;
+  bottom: 321px;
+  left: 168px;
   position: absolute;}
 
 .transportation {
@@ -3841,22 +3921,25 @@
 }
 .transportation-bg {
   @include transportationMixin;
-  @include backgroundImage("map/hover_transportation.png");
+  @include backgroundImage("map/hover_longboat3.png");
 }
 
 .transportation-inner {
-  height: px;
-  width: px;
+  height: 54px;
+  width: 79px;
+  top: 26px;
+  left: 26px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
 }
+
 @mixin twoSpearsMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 131px;
+  width: 263px;
+  top: 1124px;
+  left: 1643px;
+  position: absolute;
+}
 
 .twoSpears {
   @include twoSpearsMixin;
@@ -3867,18 +3950,20 @@
 }
 
 .twoSpears-inner {
-  height: px;
-  width: px;
+  height: 131px;
+  width: 263px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(69px 43px, 162px 25px, 230px 79px, 143px 88px, 120px 67px, 94px 103px, 26px 93px);
 }
+
 @mixin vedrfellMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 118px;
+  width: 186px;
+  top: 1657px;
+  left: 942px;
+  position: absolute;
+}
 
 .vedrfell {
   @include vedrfellMixin;
@@ -3889,17 +3974,18 @@
 }
 
 .vedrfell-inner {
-  height: px;
-  width: px;
+  height: 118px;
+  width: 186px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(28px 27px, 158px 47px, 156px 90px, 40px 55px);
 }
+
 @mixin veturSeaMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 878px;
+  width: 886px;
+  top: 209px;
+  right: 0;
   position: absolute;}
 
 .veturSea {
@@ -3911,17 +3997,18 @@
 }
 
 .veturSea-inner {
-  height: px;
-  width: px;
+  height: 878px;
+  width: 886px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(803px 714px, 694px 436px, 581px 289px, 257px 132px, 190px 177px, 31px 115px, 196px 22px, 415px 55px, 647px 195px, 793px 370px, 886px 645px, 886px 852px);
 }
+
 @mixin viksNeckMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 128px;
+  width: 81px;
+  bottom: 929px;
+  left: 329px;
   position: absolute;}
 
 .viksNeck {
@@ -3933,18 +4020,21 @@
 }
 
 .viksNeck-inner {
-  height: px;
-  width: px;
+  height: 76px;
+  width: 29px;
+  top: 26px;
+  left: 26px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
 }
+
 @mixin voeMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 86px;
+  width: 95px;
+  bottom: 250px;
+  right: 754px;
+  position: absolute;
+}
 
 .voe {
   @include voeMixin;
@@ -3955,18 +4045,21 @@
 }
 
 .voe-inner {
-  height: px;
-  width: px;
+  height: 86px;
+  width: 95px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(59px 25px, 72px 41px, 48px 61px, 23px 53px);
 }
+
+
 @mixin waywardLakeMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 88px;
+  width: 159px;
+  bottom: 888px;
+  right: 1589px;
+  position: absolute;
+}
 
 .waywardLake {
   @include waywardLakeMixin;
@@ -3977,17 +4070,20 @@
 }
 
 .waywardLake-inner {
-  height: px;
-  width: px;
+  height: 88px;
+  width: 159px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(31px 36px, 75px 25px, 134px 45px, 133px 61px, 81px 46px, 30px 53px);
 }
+
+
+
 @mixin weaversEyeMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 96px;
+  width: 132px;
+  top: 551px;
+  right: 1074px;
   position: absolute;}
 
 .weaversEye {
@@ -3999,18 +4095,21 @@
 }
 
 .weaversEye-inner {
-  height: px;
-  width: px;
+  height: 44px;
+  width: 80px;
+  top:26px;
+  left:26px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
 }
+
 @mixin whithagrMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 96px;
+  width: 213px;
+  bottom: 1141px;
+  left: 569px;
+  position: absolute;
+}
 
 .whithagr {
   @include whithagrMixin;
@@ -4021,17 +4120,19 @@
 }
 
 .whithagr-inner {
-  height: px;
-  width: px;
+  height: 44px;
+  width: 161px;
+  top: 26px;
+  left: 26px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
 }
+
 @mixin wolvesMawMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 351px;
+  width: 555px;
+  bottom: 905px;
+  right: 817px;
   position: absolute;}
 
 .wolvesMaw {
@@ -4043,39 +4144,18 @@
 }
 
 .wolvesMaw-inner {
-  height: px;
-  width: px;
+  height: 351px;
+  width: 555px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
-}
-@mixin wordanMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
-
-.wordan {
-  @include wordanMixin;
-}
-.wordan-bg {
-  @include wordanMixin;
-  @include backgroundImage("map/hover_wordan.png");
+  clip-path: polygon(29px 115px, 159px 70px, 256px 95px, 442px 25px, 532px 152px, 482px 167px, 459px 204px, 393px 202px, 325px 263px, 316px 306px, 267px 286px, 193px 337px);
 }
 
-.wordan-inner {
-  height: px;
-  width: px;
-  position: absolute;
-  z-index: 100;
-  clip-path: polygon();
-}
 @mixin wyrmsTearIsleMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 144px;
+  width: 114px;
+  bottom: 449px;
+  right: 475px;
   position: absolute;}
 
 .wyrmsTearIsle {
@@ -4087,18 +4167,21 @@
 }
 
 .wyrmsTearIsle-inner {
-  height: px;
-  width: px;
+  height: 90px;
+  width: 60px;
+  top: 27px;
+  left: 27px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
 }
+
 @mixin wyrmscaleMountainsMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
-  position: absolute;}
+  height: 1158px;
+  width: 845px;
+  top: 959px;
+  right: 1050px;
+  position: absolute;
+}
 
 .wyrmscaleMountains {
   @include wyrmscaleMountainsMixin;
@@ -4109,17 +4192,18 @@
 }
 
 .wyrmscaleMountains-inner {
-  height: px;
-  width: px;
+  height: 1158px;
+  width: 845px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
+  clip-path: polygon(218px 917px, 280px 805px, 236px 677px, 400px 643px, 292px 555px, 424px 357px, 700px 125px, 526px 99px, 778px 51px, 824px 119px, 744px 161px, 758px 199px, 692px 227px, 666px 291px, 530px 383px, 550px 609px, 408px 743px, 486px 743px, 470px 835px, 380px 883px, 272px 1025px, 258px 1097px, 30px 1093px);
 }
+
 @mixin wyrmtoeMixin(){
-  height: px;
-  width: px;
-  top: px;
-  left: px;
+  height: 90px;
+  width: 197px;
+  top: 1314px;
+  right: 1174px;
   position: absolute;}
 
 .wyrmtoe {
@@ -4131,9 +4215,10 @@
 }
 
 .wyrmtoe-inner {
-  height: px;
-  width: px;
+  height: 35px;
+  width: 144px;
+  top: 27px;
+  left: 27px;
   position: absolute;
   z-index: 100;
-  clip-path: polygon();
-}*/
+}
