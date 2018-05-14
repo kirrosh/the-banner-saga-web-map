@@ -37,7 +37,7 @@
   position: absolute;
   top: 10%;
   left: 10%;
-  color: #908d81;
+  color: #C93214;
 }
 .modal-text{
   font-size: 2.5vh;
@@ -48,15 +48,6 @@
   color: #d2cdbc;
 }
 
-.modal-close-btn{
-  font-size: 3vh;
-  position: absolute;
-  top: 0;
-  right: 0;
-  cursor: pointer;
-  color: #908d81;
-}
-
 .modal-overlay{
   position: fixed;
   z-index: 999;
@@ -64,7 +55,17 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-close-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: #d2cdbc;
+  height:50px;
+  clip-path: circle(20px at 50% 50%);
 }
 
 .modal-content{
@@ -73,10 +74,10 @@
   left: 25%;
   right: 25%;
   bottom: 25%;
-  background: #343635;
+  background: rgba(0, 0, 0, 0.604);
+  background-clip: padding-box;
   overflow: auto;
   outline: none;
-  padding: 2%;
-  //background: center no-repeat url("assets/poppening_art.png");
-  background-size: contain;
+  border: 20px solid transparent;
+  border-image: url("assets/poppening_art.png") 20 round;
 }

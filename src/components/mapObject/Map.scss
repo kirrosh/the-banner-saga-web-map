@@ -7,13 +7,13 @@
   height: 3460px;
   position: relative;
   display: flex;
-  @include backgroundImage("http://hydra-media.cursecdn.com/bannersaga.gamepedia.com/d/d9/World-Map.jpg?version=76423fd143ce1ea8a1ebb3c885b06fbb");
+  @include backgroundImage("https://i.imgur.com/dDlClEp.jpg");
 }
 
 @mixin wordanMixin(){
   width: 109px;
   height: 50px;
-  top: 195px;
+  top: 197px;
   left: 666px;
   position: absolute;
 }
@@ -52,14 +52,14 @@
   left: 291px;
   top: 437px;
   position: absolute;
-  clip-path: polygon(106px 148px, 67px 34px, 243px 20px, 427px 68px, 564px 196px, 496px 266px, 367px 166px, 264px 137px);
+  clip-path: polygon(-25px 45px, 331px 29px, 577px 188px, 690px 180px, 540px 296px, 357px 163px, 331px 213px, 240px 243px, 220px 233px, 273px 140px, 28px 145px);
 }
 
 @mixin setterlundMixin(){
   height: 1800px;
   width: 1560px;
-  left: 1625px;
-  top: 361px;
+  left: 1624px;
+  top: 364px;
   position: absolute;
 }
 .setterlund {
@@ -178,7 +178,7 @@
   height: 1176px;
   width: 1786px;
   left: 569px;
-  top: 887px;
+  top: 888px;
   position: absolute;
 }
 .hraun {
@@ -198,4 +198,4146 @@
   clip-path: polygon(52px 310px, 367px 146px, 411px 229px, 291px 295px, 81px 388px);
 }
 
+@mixin akurMixin(){
+  height: 125px;
+  width: 158px;
+  left: 446px;
+  bottom: 940px;
+  position: absolute;
+}
+.akur {
+  @include akurMixin;
+}
+.akur-bg {
+  @include akurMixin;
+  @include backgroundImage("map/hover_akur.png");
+}
+.akur-inner {
+  height: 125px;
+  width: 158px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(35px 24px, 128px 40px, 128px 65px, 113px 99px, 96px 71px, 21px 55px);
+}
 
+@mixin arberrangMixin(){
+  height: 248px;
+  width: 547px;
+  left: 175px;
+  bottom: 613px;
+  position: absolute;
+}
+.arberrang {
+  @include arberrangMixin;
+}
+.arberrang-bg {
+  @include arberrangMixin;
+  @include backgroundImage("map/hover_arberrang.png");
+}
+.arberrang-inner {
+  height: 248px;
+  width: 547px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(304px 36px, 300px 68px, 395px 57px, 403px 29px, 537px 69px, 436px 112px, 227px 144px, 84px 219px, 46px 222px, 7px 196px, 41px 148px);
+}
+
+@mixin arberRiverMixin(){
+  height: 98px;
+  width: 152px;
+  left: 275px;
+  bottom: 584px;
+  position: absolute;
+}
+.arberRiver {
+  @include arberRiverMixin;
+}
+.arberRiver-bg {
+  @include arberRiverMixin;
+  @include backgroundImage("map/hover_arberriver.png");
+}
+.arberRiver-inner {
+  height: 98px;
+  width: 152px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(27px 60px, 60px 31px, 121px 30px, 122px 47px, 76px 48px, 33px 73px);
+}
+
+@mixin arosMixin(){
+  height: 91px;
+  width: 142px;
+  left: 1741px;
+  bottom: 830px;
+  position: absolute;
+}
+.aros {
+  @include arosMixin;
+}
+.aros-bg {
+  @include arosMixin;
+  @include backgroundImage("map/hover_aros.png");
+}
+.aros-inner {
+  height: 32px;
+  width: 85px;
+  left: 26px;
+  top: 29px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin asarMixin(){
+  height: 93px;
+  width: 130px;
+  left: 1381px;
+  bottom: 244px;
+  position: absolute;
+}
+.asar {
+  @include asarMixin;
+}
+.asar-bg {
+  @include asarMixin;
+  @include backgroundImage("map/hover_asar.png");
+}
+.asar-inner {
+  height: 47px;
+  width: 76px;
+  position: absolute;
+  z-index: 100;
+  left: 26px;
+  top: 25px;
+}
+
+@mixin axefjordMixin(){
+  height: 109px;
+  width: 106px;
+  left: 1297px;
+  top: 1087px;
+  position: absolute;
+}
+.axefjord {
+  @include axefjordMixin;
+}
+.axefjord-bg {
+  @include axefjordMixin;
+  @include backgroundImage("map/hover_axefjord.png");
+}
+.axefjord-inner {
+  height: 109px;
+  width: 106px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(24px 74px, 68px 26px, 80px 37px, 34px 85px);
+}
+
+@mixin baaHarbourMixin(){
+  height: 240px;
+  width: 115px;
+  right: 491px;
+  top: 1432px;
+  position: absolute;
+}
+.baaHarbour {
+  @include baaHarbourMixin;
+}
+.baaHarbour-bg {
+  @include baaHarbourMixin;
+  @include backgroundImage("map/hover_baaharbour.png");
+}
+.baaHarbour-inner {
+  height: 240px;
+  width: 115px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(63px 210px, 52px 128px, 26px 34px, 53px 28px, 80px 119px, 90px 210px);
+}
+
+@mixin backsfjordMixin(){
+  height: 103px;
+  width: 141px;
+  left: 637px;
+  top: 1864px;
+  position: absolute;
+}
+.backsfjord {
+  @include backsfjordMixin;
+}
+.backsfjord-bg {
+  @include backsfjordMixin;
+  @include backgroundImage("map/hover_backsfjord.png");
+}
+.backsfjord-inner {
+  height: 103px;
+  width: 141px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(30px 58px, 114px 26px, 119px 46px, 34px 83px);
+}
+
+@mixin bindalMixin(){
+  height: 137px;
+  width: 243px;
+  left: 1157px;
+  bottom: 1086px;
+  position: absolute;
+}
+.bindal {
+  @include bindalMixin;
+}
+.bindal-bg {
+  @include bindalMixin;
+  @include backgroundImage("map/hover_bindal.png");
+}
+.bindal-inner {
+  height: 80px;
+  width: 170px;
+  position: absolute;
+  z-index: 100;
+  top: 29px;
+  right: 37px;
+}
+
+@mixin bitraMixin(){
+  height: 104px;
+  width: 117px;
+  right: 644px;
+  top: 1408px;
+  position: absolute;
+}
+.bitra {
+  @include bitraMixin;
+}
+.bitra-bg {
+  @include bitraMixin;
+  @include backgroundImage("map/hover_bitra.png");
+}
+.bitra-inner {
+  height: 104px;
+  width: 117px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 51px, 79px 25px, 97px 45px, 81px 78px, 32px 76px);
+}
+
+
+@mixin blotsbalkrMixin(){
+  height: 224px;
+  width: 260px;
+  right: 497px;
+  top: 935px;
+  position: absolute;
+}
+.blotsbalkr {
+  @include blotsbalkrMixin;
+}
+.blotsbalkr-bg {
+  @include blotsbalkrMixin;
+  @include backgroundImage("map/hover_blotsbalkr.png");
+}
+.blotsbalkr-inner {
+  height: 224px;
+  width: 260px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(44px 32px, 169px 73px, 214px 115px, 232px 155px, 203px 197px, 179px 122px, 130px 102px, 102px 107px, 92px 90px, 32px 68px);
+}
+
+@mixin blueRiverMixin(){
+  height: 125px;
+  width: 140px;
+  left: 672px;
+  bottom: 1186px;
+  position: absolute;
+}
+.blueRiver {
+  @include blueRiverMixin;
+}
+.blueRiver-bg {
+  @include blueRiverMixin;
+  @include backgroundImage("map/hover_blueriver.png");
+}
+.blueRiver-inner {
+  height: 125px;
+  width: 140px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 32px, 44px 24px, 67px 64px, 114px 78px, 109px 99px, 46px 75px);
+}
+
+@mixin boersgardMixin(){
+  height: 140px;
+  width: 300px;
+  left: 1791px;
+  bottom: 1045px;
+  position: absolute;
+}
+.boersgard {
+  @include boersgardMixin;
+}
+.boersgard-bg {
+  @include boersgardMixin;
+  @include backgroundImage("map/hover_boersgard.png");
+}
+.boersgard-inner {
+  height: 86px;
+  width: 242px;
+  top: 31px;
+  left: 29px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin bolunskrMixin(){
+  height: 123px;
+  width: 203px;
+  right: 1147px;
+  bottom: 785px;
+  position: absolute;
+}
+.bolunskr {
+  @include bolunskrMixin;
+}
+.bolunskr-bg {
+  @include bolunskrMixin;
+  @include backgroundImage("map/hover_bolunskr.png");
+}
+.bolunskr-inner {
+  height: 123px;
+  width: 203px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 71px, 133px 30px, 178px 44px, 182px 66px, 46px 99px);
+}
+
+@mixin brackishSeaMixin(){
+  height: 883px;
+  width: 504px;
+  right: 0px;
+  bottom: 47px;
+  position: absolute;
+}
+.brackishSea {
+  @include brackishSeaMixin;
+}
+.brackishSea-bg {
+  @include brackishSeaMixin;
+  @include backgroundImage("map/hover_brackishsea.png");
+}
+.brackishSea-inner {
+  height: 883px;
+  width: 504px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(144px 655px, 45px 493px, 39px 283px, 188px 97px, 372px 29px, 504px 46px, 504px 884px, 210px 655px);
+}
+
+@mixin brattabreckPeaksMixin(){
+  height: 397px;
+  width: 888px;
+  left: 1095px;
+  top: 1331px;
+  position: absolute;
+}
+.brattabreckPeaks {
+  @include brattabreckPeaksMixin;
+}
+.brattabreckPeaks-bg {
+  @include brattabreckPeaksMixin;
+  @include backgroundImage("map/hover_brattabreckpeaks.png");
+}
+.brattabreckPeaks-inner {
+  height: 397px;
+  width: 888px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(45px 258px, 158px 231px, 186px 172px, 533px 88px, 530px 36px, 614px 36px, 770px 69px, 845px 48px, 753px 111px, 770px 163px, 695px 184px, 644px 156px, 546px 193px, 447px 199px, 275px 249px, 33px 375px);
+}
+
+@mixin brunthalMixin(){
+  height: 101px;
+  width: 160px;
+  left: 908px;
+  bottom: 865px;
+  position: absolute;
+}
+.brunthal {
+  @include brunthalMixin;
+}
+.brunthal-bg {
+  @include brunthalMixin;
+  @include backgroundImage("map/hover_brunthal.png");
+}
+.brunthal-inner {
+  height: 101px;
+  width: 160px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(36px 24px, 125px 29px, 140px 60px, 86px 78px, 24px 53px);
+}
+
+@mixin burraPassMixin(){
+  height: 198px;
+  width: 181px;
+  left: 1828px;
+  top: 1338px;
+  position: absolute;
+}
+.burraPass {
+  @include burraPassMixin;
+}
+.burraPass-bg {
+  @include burraPassMixin;
+  @include backgroundImage("map/hover_burrapass.png");
+}
+.burraPass-inner {
+  height: 198px;
+  width: 181px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(34px 142px, 30px 105px, 91px 102px, 156px 27px, 115px 97px, 91px 139px, 60px 174px);
+}
+
+@mixin cletbergMixin(){
+  height: 103px;
+  width: 141px;
+  left: 315px;
+  top: 179px;
+  position: absolute;
+}
+.cletberg {
+  @include cletbergMixin;
+}
+.cletberg-bg {
+  @include cletbergMixin;
+  @include backgroundImage("map/hover_cletberg.png");
+}
+.cletberg-inner {
+  height: 103px;
+  width: 141px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin cragsfjordsMixin(){
+  height: 128px;
+  width: 129px;
+  left: 1651px;
+  top: 818px;
+  position: absolute;
+}
+.cragsfjords {
+  @include cragsfjordsMixin;
+}
+.cragsfjords-bg {
+  @include cragsfjordsMixin;
+  @include backgroundImage("map/hover_cragsfjords.png");
+}
+.cragsfjords-inner {
+  height: 128px;
+  width: 129px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(43px 26px, 62px 60px, 106px 92px, 100px 105px, 49px 75px, 22px 33px);
+}
+
+@mixin crookRiverMixin(){
+  height: 118px;
+  width: 127px;
+  left: 214px;
+  bottom: 473px;
+  position: absolute;
+}
+.crookRiver {
+  @include crookRiverMixin;
+}
+.crookRiver-bg {
+  @include crookRiverMixin;
+  @include backgroundImage("map/hover_crookriver.png");
+}
+.crookRiver-inner {
+  height: 128px;
+  width: 129px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(28px 72px, 32px 24px, 52px 28px, 49px 62px, 99px 75px, 100px 96px);
+}
+
+@mixin crooksHollowMixin(){
+  height: 95px;
+  width: 148px;
+  right: 1319px;
+  bottom: 684px;
+  position: absolute;
+}
+.crooksHollow {
+  @include crooksHollowMixin;
+}
+.crooksHollow-bg {
+  @include crooksHollowMixin;
+  @include backgroundImage("map/hover_crookshollow.png");
+}
+.crooksHollow-inner {
+  height: 95px;
+  width: 148px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 63px, 51px 23px, 125px 54px, 120px 72px, 59px 47px, 38px 72px);
+}
+
+@mixin dainnStonesMixin(){
+  height: 125px;
+  width: 159px;
+  top: 1680px;
+  left: 1705px;
+  position: absolute;
+}
+.dainnStones {
+  @include dainnStonesMixin;
+}
+.dainnStones-bg {
+  @include dainnStonesMixin;
+  @include backgroundImage("map/hover_dainnstones.png");
+}
+.dainnStones-inner {
+  height: 125px;
+  width: 159px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(28px 40px, 48px 28px, 83px 28px, 135px 53px, 135px 86px, 89px 102px, 71px 64px, 25px 64px);
+}
+
+@mixin deeplunnMixin(){
+  height: 266px;
+  width: 375px;
+  right: 1207px;
+  bottom: 797px;
+  position: absolute;
+}
+.deeplunn {
+  @include deeplunnMixin;
+}
+.deeplunn-bg {
+  @include deeplunnMixin;
+  @include backgroundImage("map/hover_deeplunn.png");
+}
+.deeplunn-inner {
+  height: 266px;
+  width: 375px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(45px 129px, 131px 97px, 203px 21px, 318px 78px, 351px 201px, 125px 235px, 18px 222px);
+}
+
+@mixin deepmotMixin(){
+  height: 79px;
+  width: 125px;
+  right: 1519px;
+  bottom: 1012px;
+  position: absolute;
+}
+.deepmot {
+  @include deepmotMixin;
+}
+.deepmot-bg {
+  @include deepmotMixin;
+  @include backgroundImage("map/hover_deepmot.png");
+}
+.deepmot-inner {
+  height: 25px;
+  width: 70px;
+  right: 27px;
+  bottom: 27px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin denglrsBayMixin(){
+  height: 168px;
+  width: 207px;
+  top: 1610px;
+  left: 705px;
+  position: absolute;
+}
+.denglrsBay {
+  @include denglrsBayMixin;
+}
+.denglrsBay-bg {
+  @include denglrsBayMixin;
+  @include backgroundImage("map/hover_denglrsbay.png");
+}
+.denglrsBay-inner {
+  height: 168px;
+  width: 207px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 96px, 170px 21px, 182px 48px, 147px 122px, 96px 141px, 41px 128px);
+}
+
+@mixin downsCrossingMixin(){
+  height: 239px;
+  width: 723px;
+  bottom: 317px;
+  left: 891px;
+  position: absolute;
+}
+.downsCrossing {
+  @include downsCrossingMixin;
+}
+.downsCrossing-bg {
+  @include downsCrossingMixin;
+  @include backgroundImage("map/hover_downscrossing.png");
+}
+.downsCrossing-inner {
+  height: 239px;
+  width: 723px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 200px, 124px 165px, 287px 140px, 485px 153px, 695px 20px, 697px 32px, 510px 186px, 378px 176px, 250px 156px, 28px 211px);
+}
+
+@mixin dundrsBeardMixin(){
+  height: 136px;
+  width: 183px;
+  top: 141px;
+  right: 1180px;
+  position: absolute;
+}
+.dundrsBeard {
+  @include dundrsBeardMixin;
+}
+.dundrsBeard-bg {
+  @include dundrsBeardMixin;
+  @include backgroundImage("map/hover_dundrsbeard.png");
+}
+.dundrsBeard-inner {
+  height: 87px;
+  width: 139px;
+  top:27px;
+  left:22px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin eaglehornMixin(){
+  height: 132px;
+  width: 168px;
+  bottom: 1057px;
+  left: 166px;
+  position: absolute;
+}
+.eaglehorn {
+  @include eaglehornMixin;
+}
+.eaglehorn-bg {
+  @include eaglehornMixin;
+  @include backgroundImage("map/hover_eaglehorn.png");
+}
+.eaglehorn-inner {
+  height: 132px;
+  width: 168px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(38px 52px, 83px 24px, 135px 33px, 145px 53px, 95px 109px, 25px 104px);
+}
+
+@mixin eastFingerRiverMixin(){
+  height: 101px;
+  width: 155px;
+  top: 1801px;
+  right: 642px;
+  position: absolute;
+}
+.eastFingerRiver {
+  @include eastFingerRiverMixin;
+}
+.eastFingerRiver-bg {
+  @include eastFingerRiverMixin;
+  @include backgroundImage("map/hover_eastfingerriver.png");
+}
+.eastFingerRiver-inner {
+  height: 101px;
+  width: 155px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(27px 63px, 57px 49px, 71px 33px, 97px 38px, 120px 25px, 128px 41px, 100px 55px, 79px 47px, 73px 59px, 31px 76px);
+}
+
+@mixin eastwayRoadMixin(){
+  height: 414px;
+  width: 1248px;
+  bottom: 830px;
+  left: 512px;
+  position: absolute;
+}
+.eastwayRoad {
+  @include eastwayRoadMixin;
+}
+.eastwayRoad-bg {
+  @include eastwayRoadMixin;
+  @include backgroundImage("map/hover_eastwayroad.png");
+}
+.eastwayRoad-inner {
+  height: 414px;
+  width: 1248px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(34px 372px, 151px 346px, 238px 352px, 280px 347px, 320px 354px, 402px 330px, 506px 359px, 650px 288px, 780px 246px, 956px 198px, 995px 156px, 1040px 123px, 1094px 100px, 1151px 44px, 1223px 28px, 1227px 39px, 1155px 56px, 1103px 112px, 1046px 134px, 1020px 172px, 955px 214px, 731px 306px, 507px 378px, 400px 347px, 322px 368px, 280px 358px, 240px 366px, 152px 360px, 31px 388px);
+}
+
+@mixin langLoomForestMixin(){
+  height: 586px;
+  width: 723px;
+  bottom: 1111px;
+  right: 845px;
+  position: absolute;
+}
+.langLoomForest {
+  @include langLoomForestMixin;
+}
+.langLoomForest-bg {
+  @include langLoomForestMixin;
+  @include backgroundImage("map/hover_langloomforest.png");
+}
+.langLoomForest-inner {
+  height: 586px;
+  width: 723px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 498px, 87px 388px, 198px 302px, 279px 323px, 348px 301px, 321px 207px, 354px 181px, 429px 156px, 533px 29px, 555px 30px, 706px 155px, 545px 345px, 463px 365px, 385px 498px, 216px 538px);
+}
+
+@mixin eastWickMixin(){
+  height: 101px;
+  width: 112px;
+  top: 1768px;
+  right: 524px;
+  position: absolute;
+}
+.eastWick {
+  @include eastWickMixin;
+}
+.eastWick-bg {
+  @include eastWickMixin;
+  @include backgroundImage("map/hover_eastwick.png");
+}
+.eastWick-inner {
+  height: 55px;
+  width: 60px;
+  left:26px;
+  top:23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin einartoftMixin(){
+  height: 140px;
+  width: 236px;
+  top: 1468px;
+  right: 1395px;
+  position: absolute;
+}
+.einartoft {
+  @include einartoftMixin;
+}
+.einartoft-bg {
+  @include einartoftMixin;
+  @include backgroundImage("map/hover_einartoft.png");
+}
+.einartoft-inner {
+  height: 140px;
+  width: 236px;
+  position: absolute;
+  z-index: 101;
+  clip-path: polygon(33px 40px, 194px 31px, 184px 59px, 74px 66px, 60px 112px, 28px 102px);
+}
+
+@mixin etiltorpMixin(){
+  height: 151px;
+  width: 184px;
+  bottom: 723px;
+  right: 1542px;
+  position: absolute;
+}
+.etiltorp {
+  @include etiltorpMixin;
+}
+.etiltorp-bg {
+  @include etiltorpMixin;
+  @include backgroundImage("map/hover_etiltorp.png");
+}
+.etiltorp-inner {
+  height: 151px;
+  width: 184px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(30px 58px, 119px 22px, 161px 98px, 150px 130px, 31px 80px);
+}
+
+@mixin etingbekkrMixin(){
+  height: 104px;
+  width: 229px;
+  bottom: 601px;
+  left: 901px;
+  position: absolute;
+}
+.etingbekkr {
+  @include etingbekkrMixin;
+}
+.etingbekkr-bg {
+  @include etingbekkrMixin;
+  @include backgroundImage("map/hover_etingbekkr.png");
+}
+.etingbekkr-inner {
+  height: 50px;
+  width: 175px;
+  left: 27px;
+  top: 27px;
+  position: absolute;
+  z-index: 101;
+}
+
+@mixin fastisetrMixin(){
+  height: 167px;
+  width: 201px;
+  top: 1203px;
+  left: 1343px;
+  position: absolute;
+}
+.fastisetr {
+  @include fastisetrMixin;
+}
+.fastisetr-bg {
+  @include fastisetrMixin;
+  @include backgroundImage("map/hover_fastisetr.png");
+}
+.fastisetr-inner {
+  height: 167px;
+  width: 201px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(29px 65px, 99px 83px, 154px 30px, 176px 35px, 140px 138px, 50px 124px);
+}
+
+@mixin fieldgateMixin(){
+  height: 101px;
+  width: 112px;
+  bottom: 616px;
+  left: 376px;
+  position: absolute;
+}
+.fieldgate {
+  @include fieldgateMixin;
+}
+.fieldgate-bg {
+  @include fieldgateMixin;
+  @include backgroundImage("map/hover_fieldgate.png");
+}
+.fieldgate-inner {
+  height: 101px;
+  width: 112px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 32px, 45px 25px, 77px 34px, 89px 56px, 53px 77px);
+}
+
+@mixin findalePassMixin(){
+  height: 108px;
+  width: 122px;
+  bottom: 1370px;
+  left: 1525px;
+  position: absolute;
+}
+.findalePass {
+  @include findalePassMixin;
+}
+.findalePass-bg {
+  @include findalePassMixin;
+  @include backgroundImage("map/hover_findalepass.png");
+}
+.findalePass-inner {
+  height: 108px;
+  width: 122px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(28px 27px, 66px 31px, 99px 49px, 74px 80px, 32px 70px);
+}
+
+@mixin fingernailWealdMixin(){
+  height: 180px;
+  width: 234px;
+  bottom: 864px;
+  left: 648px;
+  position: absolute;
+}
+.fingernailWeald {
+  @include fingernailWealdMixin;
+}
+.fingernailWeald-bg {
+  @include fingernailWealdMixin;
+  @include backgroundImage("map/hover_fingernailwield.png");
+}
+.fingernailWeald-inner {
+  height: 180px;
+  width: 234px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(30px 103px, 124px 60px, 169px 21px, 207px 24px, 191px 127px, 107px 151px, 27px 146px);
+}
+
+@mixin fisheyeMixin(){
+  height: 104px;
+  width: 97px;
+  bottom: 358px;
+  left: 637px;
+  position: absolute;
+}
+.fisheye {
+  @include fisheyeMixin;
+}
+.fisheye-bg {
+  @include fisheyeMixin;
+  @include backgroundImage("map/hover_fisheye.png");
+}
+.fisheye-inner {
+  height: 54px;
+  width: 44px;
+  top:25px;
+  left:27px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin fiskaBayMixin(){
+  height: 98px;
+  width: 176px;
+  bottom: 420px;
+  left: 592px;
+  position: absolute;
+}
+.fiskaBay {
+  @include fiskaBayMixin;
+}
+.fiskaBay-bg {
+  @include fiskaBayMixin;
+  @include backgroundImage("map/hover_fiskabay.png");
+}
+.fiskaBay-inner {
+  height: 98px;
+  width: 176px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 29px, 100px 28px, 154px 57px, 129px 73px, 98px 56px, 28px 57px);
+}
+
+
+@mixin fiskivikMixin(){
+  height: 138px;
+  width: 209px;
+  bottom: 386px;
+  left: 749px;
+  position: absolute;
+}
+.fiskivik {
+  @include fiskivikMixin;
+}
+.fiskivik-bg {
+  @include fiskivikMixin;
+  @include backgroundImage("map/hover_fiskivik.png");
+}
+.fiskivik-inner {
+  height: 138px;
+  width: 209px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 62px, 91px 31px, 186px 32px, 156px 63px, 98px 69px, 79px 110px, 38px 108px);
+}
+
+@mixin fladdavalorPlainsMixin(){
+  height: 155px;
+  width: 212px;
+  bottom: 1307px;
+  left: 854px;
+  position: absolute;
+}
+.fladdavalorPlains {
+  @include fladdavalorPlainsMixin;
+}
+.fladdavalorPlains-bg {
+  @include fladdavalorPlainsMixin;
+  @include backgroundImage("map/hover_fladdavalorplains.png");
+}
+.fladdavalorPlains-inner {
+  height: 155px;
+  width: 212px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(21px 98px, 87px 46px, 185px 26px, 190px 44px, 151px 128px, 35px 115px);
+}
+
+@mixin forsRiverMixin(){
+  height: 160px;
+  width: 115px;
+  bottom: 1486px;
+  left: 1582px;
+  position: absolute;
+}
+.forsRiver {
+  @include forsRiverMixin;
+}
+.forsRiver-bg {
+  @include forsRiverMixin;
+  @include backgroundImage("map/hover_forsriver.png");
+}
+.forsRiver-inner {
+  height: 160px;
+  width: 115px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(64px 26px, 92px 31px, 44px 136px, 24px 128px);
+}
+
+@mixin foulwindHillsMixin(){
+  height: 367px;
+  width: 622px;
+  bottom: 390px;
+  left: 1025px;
+  position: absolute;
+}
+.foulwindHills {
+  @include foulwindHillsMixin;
+}
+.foulwindHills-bg {
+  @include foulwindHillsMixin;
+  @include backgroundImage("map/hover_foulwindhills.png");
+}
+.foulwindHills-inner {
+  height: 367px;
+  width: 622px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(147px 187px, 298px 83px, 579px 21px, 599px 43px, 533px 119px, 529px 179px, 270px 231px, 23px 340px);
+}
+
+@mixin fraksbergMixin(){
+  height: 136px;
+  width: 141px;
+  top: 343px;
+  left: 1701px;
+  position: absolute;
+}
+.fraksberg {
+  @include fraksbergMixin;
+}
+.fraksberg-bg {
+  @include fraksbergMixin;
+  @include backgroundImage("map/hover_fraksberg.png");
+}
+.fraksberg-inner {
+  height: 136px;
+  width: 141px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 100px, 100px 19px, 118px 39px, 41px 115px);
+}
+
+@mixin frostquoyMixin(){
+  height: 201px;
+  width: 168px;
+  top: 733px;
+  right: 436px;
+  position: absolute;
+}
+.frostquoy {
+  @include frostquoyMixin;
+}
+.frostquoy-bg {
+  @include frostquoyMixin;
+  @include backgroundImage("map/hover_frostquoy.png");
+}
+.frostquoy-inner {
+  height: 201px;
+  width: 168px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 40px, 51px 21px, 146px 172px, 115px 179px);
+}
+
+@mixin frostvellrMixin(){
+  height: 204px;
+  width: 269px;
+  top: 1158px;
+  right: 636px;
+  position: absolute;
+}
+.frostvellr {
+  @include frostvellrMixin;
+}
+.frostvellr-bg {
+  @include frostvellrMixin;
+  @include backgroundImage("map/hover_frostvellr.png");
+}
+.frostvellr-inner {
+  height: 204px;
+  width: 269px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(22px 167px, 69px 117px, 175px 64px, 190px 24px, 247px 31px, 201px 102px, 28px 179px);
+}
+
+@mixin theFrozenTombsMixin(){
+  height: 418px;
+  width: 319px;
+  top: 506px;
+  left: 1284px;
+  position: absolute;
+}
+.theFrozenTombs {
+  @include theFrozenTombsMixin;
+}
+.theFrozenTombs-bg {
+  @include theFrozenTombsMixin;
+  @include backgroundImage("map/hover_frozentombs.png");
+}
+.theFrozenTombs-inner {
+  height: 418px;
+  width: 319px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(75px 56px, 229px 17px, 298px 155px, 228px 388px, 93px 394px, 20px 317px);
+}
+
+@mixin gardstadMixin(){
+  height: 122px;
+  width: 204px;
+  bottom: 975px;
+  right: 812px;
+  position: absolute;}
+
+.gardstad {
+  @include gardstadMixin;
+}
+.gardstad-bg {
+  @include gardstadMixin;
+  @include backgroundImage("map/hover_gardstad.png");
+}
+
+.gardstad-inner {
+  height: 122px;
+  width: 204px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(16px 94px, 148px 29px, 181px 31px, 100px 87px);
+}
+
+@mixin gaularMixin(){
+  height: 100px;
+  width: 200px;
+  bottom: 815px;
+  left: 625px;
+  position: absolute;}
+
+.gaular {
+  @include gaularMixin;
+}
+.gaular-bg {
+  @include gaularMixin;
+  @include backgroundImage("map/hover_gaular.png");
+}
+
+.gaular-inner {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 65px, 106px 39px, 174px 26px, 161px 59px, 86px 74px);
+}
+
+@mixin gelmsfjordMixin(){
+  height: 109px;
+  width: 129px;
+  top: 1047px;
+  left: 1223px;
+  position: absolute;}
+
+.gelmsfjord {
+  @include gelmsfjordMixin;
+}
+.gelmsfjord-bg {
+  @include gelmsfjordMixin;
+  @include backgroundImage("map/hover_gelmsfjord.png");
+}
+
+.gelmsfjord-inner {
+  height: 109px;
+  width: 129px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(24px 72px, 98px 25px, 105px 37px, 33px 86px);
+}
+
+@mixin gimfellPeakMixin(){
+  height: 168px;
+  width: 210px;
+  top: 789px;
+  right: 977px;
+  position: absolute;
+}
+.gimfellPeak {
+  @include gimfellPeakMixin;
+}
+.gimfellPeak-bg {
+  @include gimfellPeakMixin;
+  @include backgroundImage("map/hover_gimfellpeak.png");
+}
+
+.gimfellPeak-inner {
+  height: 168px;
+  width: 210px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(55px 92px, 172px 24px, 188px 38px, 90px 116px, 99px 138px, 20px 133px);
+}
+
+@mixin gnasherBiterAndGrinderMixin(){
+  height: 139px;
+  width: 220px;
+  top: 930px;
+  right: 753px;
+  position: absolute;
+}
+.gnasherBiterAndGrinder {
+  @include gnasherBiterAndGrinderMixin;
+}
+.gnasherBiterAndGrinder-bg {
+  @include gnasherBiterAndGrinderMixin;
+  @include backgroundImage("map/hover_gnasherbitergrinder.png");
+}
+.gnasherBiterAndGrinder-inner {
+  height: 139px;
+  width: 220px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(20px 102px, 92px 29px, 163px 50px, 196px 92px, 92px 116px);
+}
+
+@mixin grayStepsMixin(){
+  height: 137px;
+  width: 278px;
+  bottom: 876px;
+  right: 799px;
+  position: absolute;}
+
+.graySteps {
+  @include grayStepsMixin;
+}
+.graySteps-bg {
+  @include grayStepsMixin;
+  @include backgroundImage("map/hover_graysteps.png");
+}
+
+.graySteps-inner {
+  height: 137px;
+  width: 278px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(29px 67px, 249px 27px, 217px 103px, 126px 115px);
+}
+
+@mixin graywaterSeaMixin(){
+  height: 242px;
+  width: 229px;
+  bottom: 361px;
+  right: 648px;
+  position: absolute;}
+
+.graywaterSea {
+  @include graywaterSeaMixin;
+}
+.graywaterSea-bg {
+  @include graywaterSeaMixin;
+  @include backgroundImage("map/hover_graywatersea.png");
+}
+
+.graywaterSea-inner {
+  height: 242px;
+  width: 229px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(21px 196px, 128px 132px, 176px 26px, 210px 31px, 156px 148px, 44px 223px);
+}
+
+@mixin grenilundMixin(){
+  height: 133px;
+  width: 196px;
+  bottom: 1472px;
+  right: 926px;
+  position: absolute;}
+
+.grenilund {
+  @include grenilundMixin;
+}
+.grenilund-bg {
+  @include grenilundMixin;
+  @include backgroundImage("map/hover_grenilund.png");
+}
+
+.grenilund-inner {
+  height: 133px;
+  width: 196px;
+  position: absolute;
+  z-index: 101;
+}
+
+@mixin greyhornMixin(){
+  height: 119px;
+  width: 146px;
+  top: 860px;
+  right: 705px;
+  position: absolute;}
+
+.greyhorn {
+  @include greyhornMixin;
+}
+.greyhorn-bg {
+  @include greyhornMixin;
+  @include backgroundImage("map/hover_greyhorn.png");
+}
+
+.greyhorn-inner {
+  height: 119px;
+  width: 146px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(24px 62px, 21px 43px, 64px 25px, 128px 36px, 97px 96px);
+}
+
+@mixin grofheimMixin(){
+  height: 296px;
+  width: 520px;
+  top: 944px;
+  left: 1487px;
+  position: absolute;}
+
+.grofheim {
+  @include grofheimMixin;
+}
+.grofheim-bg {
+  @include grofheimMixin;
+  @include backgroundImage("map/hover_grofheim.png");
+}
+
+.grofheim-inner {
+  height: 296px;
+  width: 520px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(24px 170px, 439px 27px, 494px 118px, 304px 201px, 278px 273px, 218px 219px, 124px 262px, 66px 235px);
+}
+
+@mixin gruinSeaMixin(){
+  height: 417px;
+  width: 361px;
+  bottom: 26px;
+  right: 366px;
+  position: absolute;
+}
+
+.gruinSea {
+  @include gruinSeaMixin;
+}
+.gruinSea-bg {
+  @include gruinSeaMixin;
+  @include backgroundImage("map/hover_gruinsea.png");
+}
+
+.gruinSea-inner {
+  height: 417px;
+  width: 361px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(319px 13px, 341px 110px, 60px 408px, 16px 363px);
+}
+
+@mixin grundarMixin(){
+  height: 128px;
+  width: 195px;
+  bottom: 795px;
+  left: 1204px;
+  position: absolute;
+}
+.grundar {
+  @include grundarMixin;
+}
+.grundar-bg {
+  @include grundarMixin;
+  @include backgroundImage("map/hover_grundar.png");
+}
+
+.grundar-inner {
+  height: 128px;
+  width: 195px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(71px 44px, 159px 25px, 173px 54px, 94px 104px, 23px 90px);
+}
+
+@mixin gunrsHeogMixin(){
+  height: 135px;
+  width: 226px;
+  bottom: 1496px;
+  right: 1369px;
+  position: absolute;}
+
+.gunrsHeog {
+  @include gunrsHeogMixin;
+}
+.gunrsHeog-bg {
+  @include gunrsHeogMixin;
+  @include backgroundImage("map/hover_gunrsheog.png");
+}
+
+.gunrsHeog-inner {
+  height: 135px;
+  width: 226px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(170px 17px, 188px 18px, 152px 87px, 107px 125px, 20px 80px);
+}
+
+@mixin halsarMixin(){
+  height: 141px;
+  width: 162px;
+  bottom: 1247px;
+  left: 1531px;
+  position: absolute;}
+
+.halsar {
+  @include halsarMixin;
+}
+.halsar-bg {
+  @include halsarMixin;
+  @include backgroundImage("map/hover_halsar.png");
+}
+
+.halsar-inner {
+  height: 141px;
+  width: 162px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(27px 85px, 116px 40px, 139px 57px, 94px 98px, 33px 115px);
+}
+
+@mixin haukstorpMixin(){
+  height: 152px;
+  width: 215px;
+  top: 1661px;
+  right: 875px;
+  position: absolute;
+}
+
+.haukstorp {
+  @include haukstorpMixin;
+}
+.haukstorp-bg {
+  @include haukstorpMixin;
+  @include backgroundImage("map/hover_haukstorp.png");
+}
+
+.haukstorp-inner {
+  height: 152px;
+  width: 215px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 98px, 31px 65px, 133px 27px, 190px 36px, 175px 54px, 85px 122px, 31px 123px);
+}
+
+@mixin highpassMixin(){
+  height: 185px;
+  width: 295px;
+  top: 1586px;
+  right: 1055px;
+  position: absolute;
+}
+
+.highpass {
+  @include highpassMixin;
+}
+.highpass-bg {
+  @include highpassMixin;
+  @include backgroundImage("map/hover_highpass.png");
+}
+
+.highpass-inner {
+  height: 185px;
+  width: 295px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(40px 30px, 81px 43px, 182px 35px, 227px 117px, 262px 131px, 253px 155px, 192px 132px, 141px 56px, 77px 66px, 32px 45px);
+}
+
+@mixin hjardarhagiMixin(){
+  height: 97px;
+  width: 197px;
+  bottom: 1321px;
+  right: 1595px;
+  position: absolute;
+}
+
+.hjardarhagi {
+  @include hjardarhagiMixin;
+}
+.hjardarhagi-bg {
+  @include hjardarhagiMixin;
+  @include backgroundImage("map/hover_hjardarhagi.png");
+}
+
+.hjardarhagi-inner {
+  height: 51px;
+  width: 151px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin huntersBridgeMixin(){
+  height: 113px;
+  width: 122px;
+  bottom: 649px;
+  left: 622px;
+  position: absolute;
+}
+
+.huntersBridge {
+  @include huntersBridgeMixin;
+}
+.huntersBridge-bg {
+  @include huntersBridgeMixin;
+  @include backgroundImage("map/hover_huntersbridge.png");
+}
+
+.huntersBridge-inner {
+  height: 113px;
+  width: 122px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(22px 42px, 87px 23px, 95px 61px, 34px 89px);
+}
+
+@mixin jarlsHoweMixin(){
+  height: 113px;
+  width: 142px;
+  bottom: 993px;
+  left: 860px;
+  position: absolute;
+}
+
+.jarlsHowe {
+  @include jarlsHoweMixin;
+}
+.jarlsHowe-bg {
+  @include jarlsHoweMixin;
+  @include backgroundImage("map/hover_jarlshowe.png");
+}
+
+.jarlsHowe-inner {
+  height: 67px;
+  width: 96px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon();
+}
+
+@mixin jarlsfjordMixin(){
+  height: 77px;
+  width: 139px;
+  bottom: 574px;
+  left: 116px;
+  position: absolute;
+}
+
+.jarlsfjord {
+  @include jarlsfjordMixin;
+}
+.jarlsfjord-bg {
+  @include jarlsfjordMixin;
+  @include backgroundImage("map/hover_jarlsfjord.png");
+}
+
+.jarlsfjord-inner {
+  height: 31px;
+  width: 93px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin karlsfjordMixin(){
+  height: 97px;
+  width: 147px;
+  bottom: 1593px;
+  left: 867px;
+  position: absolute;
+}
+
+.karlsfjord {
+  @include karlsfjordMixin;
+}
+.karlsfjord-bg {
+  @include karlsfjordMixin;
+  @include backgroundImage("map/hover_karlsfjord.png");
+}
+
+.karlsfjord-inner {
+  height: 51px;
+  width: 101px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon();
+}
+
+@mixin karlshusMixin(){
+  height: 129px;
+  width: 168px;
+  bottom: 1434px;
+  left: 1152px;
+  position: absolute;
+}
+
+.karlshus {
+  @include karlshusMixin;
+}
+.karlshus-bg {
+  @include karlshusMixin;
+  @include backgroundImage("map/hover_karlshus.png");
+}
+
+.karlshus-inner {
+  height: 129px;
+  width: 168px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(33px 46px, 64px 26px, 102px 26px, 144px 78px, 135px 111px, 23px 70px);
+}
+
+@mixin karlsvatMixin(){
+  height: 120px;
+  width: 121px;
+  bottom: 1421px;
+  left: 1326px;
+  position: absolute;
+}
+
+.karlsvat {
+  @include karlsvatMixin;
+}
+.karlsvat-bg {
+  @include karlsvatMixin;
+  @include backgroundImage("map/hover_karlsvat.png");
+}
+
+.karlsvat-inner {
+  height: 120px;
+  width: 121px;
+  position: absolute;
+  z-index: 100;
+  clip-path:polygon(71px 60px, 29px 47px, 30px 25px, 88px 39px, 93px 97px, 72px 95px);
+}
+
+@mixin kingsBarrowMixin(){
+  height: 135px;
+  width: 226px;
+  top: 1220px;
+  right: 1549px;
+  position: absolute;
+}
+
+.kingsBarrow {
+  @include kingsBarrowMixin;
+}
+.kingsBarrow-bg {
+  @include kingsBarrowMixin;
+  @include backgroundImage("map/hover_kingsbarrow.png");
+}
+
+.kingsBarrow-inner {
+  height: 89px;
+  width: 180px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin lansbridgeMixin(){
+  height: 102px;
+  width: 132px;
+  bottom: 946px;
+  left: 626px;
+  position: absolute;
+}
+
+.lansbridge {
+  @include lansbridgeMixin;
+}
+.lansbridge-bg {
+  @include lansbridgeMixin;
+  @include backgroundImage("map/hover_lansbridge.png");
+}
+
+.lansbridge-inner {
+  height: 102px;
+  width: 132px;
+  position: absolute;
+  z-index: 101;
+  clip-path: polygon(28px 23px, 87px 41px, 107px 71px, 48px 75px, 24px 47px);
+}
+
+@mixin lastGateMixin(){
+  height: 94px;
+  width: 115px;
+  bottom: 1655px;
+  left: 1080px;
+  position: absolute;
+}
+
+.lastGate {
+  @include lastGateMixin;
+}
+.lastGate-bg {
+  @include lastGateMixin;
+  @include backgroundImage("map/hover_lastgate.png");
+}
+
+.lastGate-inner {
+  height: 94px;
+  width: 115px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(29px 25px, 85px 42px, 95px 53px, 25px 67px);
+}
+
+@mixin lastGroveMixin(){
+  height: 215px;
+  width: 162px;
+  bottom: 426px;
+  left: 381px;
+  position: absolute;
+}
+
+.lastGrove {
+  @include lastGroveMixin;
+}
+.lastGrove-bg {
+  @include lastGroveMixin;
+  @include backgroundImage("map/hover_lastgrove.png");
+}
+
+.lastGrove-inner {
+  height: 215px;
+  width: 162px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(72px 190px, 26px 132px, 35px 86px, 87px 77px, 120px 20px, 133px 76px, 108px 156px);
+}
+
+@mixin laxHarbourMixin(){
+  height: 100px;
+  width: 112px;
+  bottom: 362px;
+  left: 483px;
+  position: absolute;}
+
+.laxHarbour {
+  @include laxHarbourMixin;
+}
+.laxHarbour-bg {
+  @include laxHarbourMixin;
+  @include backgroundImage("map/hover_laxharbour.png");
+}
+
+.laxHarbour-inner {
+  height: 100px;
+  width: 112px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(28px 41px, 55px 24px, 91px 32px, 28px 78px);
+}
+
+@mixin longhalrRoadMixin(){
+  height: 836px;
+  width: 398px;
+  bottom: 781px;
+  left: 464px;
+  position: absolute;
+}
+
+.longhalrRoad {
+  @include longhalrRoadMixin;
+}
+.longhalrRoad-bg {
+  @include longhalrRoadMixin;
+  @include backgroundImage("map/hover_longhalrroad.png");
+}
+
+.longhalrRoad-inner {
+  height: 836px;
+  width: 398px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 810px, 71px 732px, 83px 695px, 186px 614px, 183px 543px, 263px 455px, 327px 422px, 342px 387px, 248px 279px, 266px 176px, 318px 147px, 363px 24px, 374px 29px, 359px 134px, 318px 185px, 291px 191px, 282px 287px, 363px 362px, 359px 416px, 219px 564px, 206px 632px, 102px 704px, 93px 744px, 33px 822px);
+}
+
+@mixin longshipsMixin(){
+  height: 154px;
+  width: 213px;
+  top: 192px;
+  left: 1193px;
+  position: absolute;}
+
+.longships {
+  @include longshipsMixin;
+}
+.longships-bg {
+  @include longshipsMixin;
+  @include backgroundImage("map/hover_longship1.png");
+}
+
+.longships-inner {
+  height: 108px;
+  width: 167px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin lunadimWoodMixin(){
+  height: 183px;
+  width: 293px;
+  bottom: 1568px;
+  right: 743px;
+  position: absolute;}
+
+.lunadimWood {
+  @include lunadimWoodMixin;
+}
+.lunadimWood-bg {
+  @include lunadimWoodMixin;
+  @include backgroundImage("map/hover_lunadimwood.png");
+}
+
+.lunadimWood-inner {
+  height: 183px;
+  width: 293px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 53px, 35px 25px, 99px 82px, 148px 60px, 260px 73px, 267px 112px, 188px 142px, 95px 158px);
+}
+
+@mixin lundarMixin(){
+  height: 106px;
+  width: 170px;
+  bottom: 746px;
+  left: 981px;
+  position: absolute;
+}
+
+.lundar {
+  @include lundarMixin;
+}
+.lundar-bg {
+  @include lundarMixin;
+  @include backgroundImage("map/hover_lundar.png");
+}
+
+.lundar-inner {
+  height: 106px;
+  width: 170px;
+  position: absolute;
+  z-index: 101;
+  clip-path: polygon(26px 37px, 145px 28px, 132px 84px, 43px 71px);
+}
+
+@mixin manaharrMixin(){
+  height: 297px;
+  width: 324px;
+  bottom: 795px;
+  left: 76px;
+  position: absolute;
+}
+
+.manaharr {
+  @include manaharrMixin;
+}
+.manaharr-bg {
+  @include manaharrMixin;
+  @include backgroundImage("map/hover_manaharr.png");
+}
+
+.manaharr-inner {
+  height: 297px;
+  width: 324px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(29px 81px, 48px 26px, 226px 51px, 300px 175px, 291px 275px, 123px 215px);
+}
+
+@mixin midriverMixin(){
+  height: 85px;
+  width: 134px;
+  bottom: 540px;
+  left: 256px;
+  position: absolute;
+}
+
+.midriver {
+  @include midriverMixin;
+}
+.midriver-bg {
+  @include midriverMixin;
+  @include backgroundImage("map/hover_midriver.png");
+}
+
+.midriver-inner {
+  height: 85px;
+  width: 134px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(34px 25px, 63px 36px, 104px 33px, 111px 52px, 59px 58px, 27px 43px);
+}
+
+@mixin mireFallowsMixin(){
+  height: 194px;
+  width: 312px;
+  bottom: 241px;
+  right: 1128px;
+  position: absolute;}
+
+.mireFallows {
+  @include mireFallowsMixin;
+}
+.mireFallows-bg {
+  @include mireFallowsMixin;
+  @include backgroundImage("map/hover_mirefallows.png");
+}
+
+.mireFallows-inner {
+  height: 194px;
+  width: 312px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(86px 116px, 273px 25px, 288px 42px, 275px 96px, 141px 152px, 20px 167px);
+}
+
+@mixin mirewayRiverMixin(){
+  height: 158px;
+  width: 129px;
+  bottom: 702px;
+  right: 1083px;
+  position: absolute;
+}
+
+.mirewayRiver {
+  @include mirewayRiverMixin;
+}
+.mirewayRiver-bg {
+  @include mirewayRiverMixin;
+  @include backgroundImage("map/hover_mirewayriver.png");
+}
+
+.mirewayRiver-inner {
+  height: 158px;
+  width: 129px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 123px, 86px 28px, 103px 27px, 100px 60px, 75px 99px, 32px 134px);
+}
+
+@mixin mirkwallowMixin(){
+  height: 92px;
+  width: 129px;
+  bottom: 326px;
+  left: 1708px;
+  position: absolute;
+}
+
+.mirkwallow {
+  @include mirkwallowMixin;
+}
+.mirkwallow-bg {
+  @include mirkwallowMixin;
+  @include backgroundImage("map/hover_mirkwallow.png");
+}
+
+.mirkwallow-inner {
+  height: 46px;
+  width: 83px;
+  left: 23px;
+  top: 23px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon();
+}
+
+@mixin mornforthTaingMixin(){
+  height: 185px;
+  width: 257px;
+  top: 550px;
+  right: 559px;
+  position: absolute;}
+
+.mornforthTaing {
+  @include mornforthTaingMixin;
+}
+.mornforthTaing-bg {
+  @include mornforthTaingMixin;
+  @include backgroundImage("map/hover_mornforthtaing.png");
+}
+
+.mornforthTaing-inner {
+  height: 185px;
+  width: 257px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(29px 20px, 105px 44px, 241px 140px, 225px 167px, 95px 71px, 24px 45px);
+}
+
+@mixin mudwayMixin(){
+  height: 116px;
+  width: 236px;
+  bottom: 476px;
+  left: 1596px;
+  position: absolute;
+}
+
+.mudway {
+  @include mudwayMixin;
+}
+.mudway-bg {
+  @include mudwayMixin;
+  @include backgroundImage("map/hover_mudway.png");
+}
+
+.mudway-inner {
+  height: 116px;
+  width: 236px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(65px 61px, 133px 25px, 206px 39px, 199px 53px, 141px 56px, 76px 91px, 22px 75px);
+}
+
+@mixin nautmotMixin(){
+  height: 175px;
+  width: 218px;
+  bottom: 1513px;
+  left: 1623px;
+  position: absolute;}
+
+.nautmot {
+  @include nautmotMixin;
+}
+.nautmot-bg {
+  @include nautmotMixin;
+  @include backgroundImage("map/hover_nautmot.png");
+}
+
+.nautmot-inner {
+  height: 175px;
+  width: 218px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(101px 30px, 198px 64px, 120px 134px, 47px 150px, 24px 142px);
+}
+
+@mixin nordfellingWastesMixin(){
+  height: 123px;
+  width: 203px;
+  top: 1196px;
+  right: 988px;
+  position: absolute;
+}
+
+.nordfellingWastes {
+  @include nordfellingWastesMixin;
+}
+.nordfellingWastes-bg {
+  @include nordfellingWastesMixin;
+  @include backgroundImage("map/hover_nordfellingwastes.png");
+}
+
+.nordfellingWastes-inner {
+  height: 123px;
+  width: 203px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(11px 35px, 185px 28px, 159px 93px, 60px 97px);
+}
+
+@mixin nordskalrMixin(){
+  height: 103px;
+  width: 132px;
+  top: 557px;
+  right: 1325px;
+  position: absolute;
+}
+
+.nordskalr {
+  @include nordskalrMixin;
+}
+.nordskalr-bg {
+  @include nordskalrMixin;
+  @include backgroundImage("map/hover_nordskalr.png");
+}
+
+.nordskalr-inner {
+  height: 103px;
+  width: 132px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(32px 44px, 74px 54px, 86px 26px, 110px 28px, 83px 81px, 23px 65px);
+}
+
+@mixin nordspitMountainsMixin(){
+  height: 379px;
+  width: 424px;
+  bottom: 1170px;
+  right: 777px;
+  position: absolute;
+}
+
+.nordspitMountains {
+  @include nordspitMountainsMixin;
+}
+.nordspitMountains-bg {
+  @include nordspitMountainsMixin;
+  @include backgroundImage("map/hover_nordspitmountains.png");
+}
+
+.nordspitMountains-inner {
+  height: 379px;
+  width: 424px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(47px 300px, 121px 244px, 222px 172px, 187px 158px, 370px 23px, 402px 72px, 298px 244px, 24px 357px);
+}
+
+@mixin northTongueMixin(){
+  height: 125px;
+  width: 109px;
+  top: 933px;
+  left: 1105px;
+  position: absolute;
+}
+
+.northTongue {
+  @include northTongueMixin;
+}
+.northTongue-bg {
+  @include northTongueMixin;
+  @include backgroundImage("map/hover_northtongue.png");
+}
+
+.northTongue-inner {
+  height: 125px;
+  width: 109px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(27px 61px, 79px 17px, 82px 60px, 30px 107px);
+}
+
+@mixin northfjordMixin(){
+  height: 157px;
+  width: 104px;
+  bottom: 878px;
+  left: 397px;
+  position: absolute;
+}
+
+.northfjord {
+  @include northfjordMixin;
+}
+.northfjord-bg {
+  @include northfjordMixin;
+  @include backgroundImage("map/hover_northfjord.png");
+}
+
+.northfjord-inner {
+  height: 157px;
+  width: 104px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(39px 61px, 65px 26px, 84px 34px, 60px 67px, 50px 130px, 27px 131px);
+}
+
+@mixin oldFatherMixin(){
+  height: 105px;
+  width: 223px;
+  top: 1667px;
+  right: 1185px;
+  position: absolute;
+}
+
+.oldFather {
+  @include oldFatherMixin;
+}
+.oldFather-bg {
+  @include oldFatherMixin;
+  @include backgroundImage("map/hover_oldfather.png");
+}
+
+.oldFather-inner {
+  height: 105px;
+  width: 223px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(63px 27px, 111px 60px, 198px 59px, 200px 73px, 25px 81px);
+}
+
+@mixin oldFordMixin(){
+  height: 94px;
+  width: 157px;
+  bottom: 805px;
+  left: 482px;
+  position: absolute;
+}
+
+.oldFord {
+  @include oldFordMixin;
+}
+.oldFord-bg {
+  @include oldFordMixin;
+  @include backgroundImage("map/hover_oldford.png");
+}
+
+.oldFord-inner {
+  height: 94px;
+  width: 157px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(136px 26px, 138px 43px, 41px 72px, 27px 62px, 38px 43px);
+}
+
+@mixin ollerholmMixin(){
+  height: 117px;
+  width: 211px;
+  bottom: 453px;
+  left: 1699px;
+  position: absolute;
+}
+
+.ollerholm {
+  @include ollerholmMixin;
+}
+.ollerholm-bg {
+  @include ollerholmMixin;
+  @include backgroundImage("map/hover_ollerholm.png");
+}
+
+.ollerholm-inner {
+  height: 117px;
+  width: 211px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 57px, 112px 27px, 189px 63px, 180px 94px, 101px 73px, 43px 83px);
+}
+
+@mixin ongullstaddrMixin(){
+  height: 170px;
+  width: 205px;
+  bottom: 364px;
+  left: 299px;
+  position: absolute;
+}
+
+.ongullstaddr {
+  @include ongullstaddrMixin;
+}
+.ongullstaddr-bg {
+  @include ongullstaddrMixin;
+  @include backgroundImage("map/hover_ongullstaddr.png");
+}
+
+.ongullstaddr-inner {
+  height: 170px;
+  width: 205px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(30px 22px, 184px 121px, 155px 148px, 24px 65px);
+}
+
+@mixin ormsaRiverMixin(){
+  height: 165px;
+  width: 107px;
+  bottom: 729px;
+  left: 1143px;
+  position: absolute;
+}
+
+.ormsaRiver {
+  @include ormsaRiverMixin;
+}
+.ormsaRiver-bg {
+  @include ormsaRiverMixin;
+  @include backgroundImage("map/hover_ormsariver.png");
+}
+
+.ormsaRiver-inner {
+  height: 165px;
+  width: 107px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon();
+}
+
+@mixin ormsdalrMixin(){
+  height: 141px;
+  width: 311px;
+  bottom: 917px;
+  left: 1403px;
+  position: absolute;
+}
+
+.ormsdalr {
+  @include ormsdalrMixin;
+}
+.ormsdalr-bg {
+  @include ormsdalrMixin;
+  @include backgroundImage("map/hover_ormsdalr.png");
+}
+
+.ormsdalr-inner {
+  height: 141px;
+  width: 311px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(67px 58px, 205px 22px, 289px 30px, 290px 82px, 215px 62px, 112px 88px, 89px 117px, 22px 119px);
+}
+
+@mixin ormsfjordMixin(){
+  height: 99px;
+  width: 148px;
+  bottom: 306px;
+  left: 789px;
+  position: absolute;
+}
+
+.ormsfjord {
+  @include ormsfjordMixin;
+}
+.ormsfjord-bg {
+  @include ormsfjordMixin;
+  @include backgroundImage("map/hover_ormsfjord.png");
+}
+
+.ormsfjord-inner {
+  height: 99px;
+  width: 148px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(29px 53px, 77px 45px, 118px 26px, 127px 39px, 84px 66px, 27px 69px);
+}
+
+@mixin pineLunnMixin(){
+  height: 155px;
+  width: 193px;
+  bottom: 1513px;
+  right: 1166px;
+  position: absolute;
+}
+
+.pineLunn {
+  @include pineLunnMixin;
+}
+.pineLunn-bg {
+  @include pineLunnMixin;
+  @include backgroundImage("map/hover_pinelunn.png");
+}
+
+.pineLunn-inner {
+  height: 155px;
+  width: 193px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(52px 25px, 180px 55px, 139px 112px, 50px 126px, 24px 102px);
+}
+
+@mixin plainsofSlaughterMixin(){
+  height: 207px;
+  width: 372px;
+  bottom: 165px;
+  left: 978px;
+  position: absolute;
+}
+
+.plainsofSlaughter {
+  @include plainsofSlaughterMixin;
+}
+.plainsofSlaughter-bg {
+  @include plainsofSlaughterMixin;
+  @include backgroundImage("map/hover_plainsofslaughter.png");
+}
+
+.plainsofSlaughter-inner {
+  height: 207px;
+  width: 372px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(21px 80px, 116px 37px, 217px 26px, 310px 66px, 355px 126px, 171px 185px);
+}
+
+@mixin rakesCrossingMixin(){
+  height: 105px;
+  width: 125px;
+  bottom: 1264px;
+  right: 1568px;
+  position: absolute;}
+
+.rakesCrossing {
+  @include rakesCrossingMixin;
+}
+.rakesCrossing-bg {
+  @include rakesCrossingMixin;
+  @include backgroundImage("map/hover_rakescrossing.png");
+}
+
+.rakesCrossing-inner {
+  height: 105px;
+  width: 125px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(27px 28px, 44px 27px, 112px 73px, 27px 76px);
+}
+
+@mixin ravenheadMixin(){
+  height: 169px;
+  width: 97px;
+  top: 1200px;
+  right: 362px;
+  position: absolute;
+}
+
+.ravenhead {
+  @include ravenheadMixin;
+}
+.ravenhead-bg {
+  @include ravenheadMixin;
+  @include backgroundImage("map/hover_ravenhead.png");
+}
+
+.ravenhead-inner {
+  height: 169px;
+  width: 97px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(42px 77px, 22px 34px, 47px 25px, 67px 75px, 73px 144px, 51px 145px);
+}
+
+@mixin reynivikMixin(){
+  height: 149px;
+  width: 152px;
+  bottom: 1316px;
+  right: 1385px;
+  position: absolute;
+}
+
+.reynivik {
+  @include reynivikMixin;
+}
+.reynivik-bg {
+  @include reynivikMixin;
+  @include backgroundImage("map/hover_reynivik.png");
+}
+
+.reynivik-inner {
+  height: 149px;
+  width: 152px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(18px 85px, 83px 65px, 118px 21px, 130px 59px, 50px 124px);
+}
+
+@mixin ridgehornMixin(){
+  height: 138px;
+  width: 143px;
+  top: 1555px;
+  left: 669px;
+  position: absolute;}
+
+.ridgehorn {
+  @include ridgehornMixin;
+}
+.ridgehorn-bg {
+  @include ridgehornMixin;
+  @include backgroundImage("map/hover_ridgehorn.png");
+}
+
+.ridgehorn-inner {
+  height: 138px;
+  width: 143px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(28px 73px, 61px 32px, 117px 28px, 120px 89px, 32px 114px);
+}
+
+@mixin rikeMixin(){
+  height: 106px;
+  width: 151px;
+  top: 1585px;
+  right: 766px;
+  position: absolute;}
+
+.rike {
+  @include rikeMixin;
+}
+.rike-bg {
+  @include rikeMixin;
+  @include backgroundImage("map/hover_rike.png");
+}
+
+.rike-inner {
+  height: 56px;
+  width: 101px;
+  top: 25px;
+  left:25px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon();
+}
+
+@mixin rotfjordMixin(){
+  height: 143px;
+  width: 94px;
+  bottom: 1426px;
+  right: 543px;
+  position: absolute;}
+
+.rotfjord {
+  @include rotfjordMixin;
+}
+.rotfjord-bg {
+  @include rotfjordMixin;
+  @include backgroundImage("map/hover_rotfjord.png");
+}
+
+.rotfjord-inner {
+  height: 143px;
+  width: 94px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 29px, 43px 23px, 72px 100px, 67px 118px, 48px 115px);
+}
+
+@mixin rumfjordMixin(){
+  height: 110px;
+  width: 104px;
+  top: 1107px;
+  left: 1416px;
+  position: absolute;
+}
+
+.rumfjord {
+  @include rumfjordMixin;
+}
+.rumfjord-bg {
+  @include rumfjordMixin;
+  @include backgroundImage("map/hover_rumfjord.png");
+}
+
+.rumfjord-inner {
+  height: 110px;
+  width: 104px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(29px 24px, 68px 38px, 79px 81px, 66px 86px, 55px 50px, 27px 43px);
+}
+
+@mixin sailingAndNavigationMixin(){
+  height: 168px;
+  width: 174px;
+  bottom: 1163px;
+  left: 251px;
+  position: absolute;
+}
+
+.sailingAndNavigation {
+  @include sailingAndNavigationMixin;
+}
+.sailingAndNavigation-bg {
+  @include sailingAndNavigationMixin;
+  @include backgroundImage("map/hover_longboat2.png");
+}
+
+.sailingAndNavigation-inner {
+  height: 122px;
+  width: 128px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin schlidMixin(){
+  height: 92px;
+  width: 187px;
+  top: 1400px;
+  left: 1009px;
+  position: absolute;
+}
+
+.schlid {
+  @include schlidMixin;
+}
+.schlid-bg {
+  @include schlidMixin;
+  @include backgroundImage("map/hover_schlid.png");
+}
+
+.schlid-inner {
+  height: 46px;
+  width: 141px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon();
+}
+
+@mixin seahornMixin(){
+  height: 85px;
+  width: 167px;
+  bottom: 1404px;
+  left: 463px;
+  position: absolute;
+}
+
+.seahorn {
+  @include seahornMixin;
+}
+.seahorn-bg {
+  @include seahornMixin;
+  @include backgroundImage("map/hover_seahorn.png");
+}
+
+.seahorn-inner {
+  height: 39px;
+  width: 121px;
+  top: 23px;
+  right: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin shiverRockMixin(){
+  height: 185px;
+  width: 116px;
+  top: 1551px;
+  left: 496px;
+  position: absolute;
+}
+
+.shiverRock {
+  @include shiverRockMixin;
+}
+.shiverRock-bg {
+  @include shiverRockMixin;
+  @include backgroundImage("map/hover_shiverrock.png");
+}
+
+.shiverRock-inner {
+  height: 185px;
+  width: 116px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 122px, 41px 42px, 84px 21px, 91px 43px, 59px 66px, 57px 115px, 84px 140px, 70px 166px);
+}
+
+@mixin sigrholmMixin(){
+  height: 124px;
+  width: 175px;
+  bottom: 1460px;
+  right: 1287px;
+  position: absolute;}
+
+.sigrholm {
+  @include sigrholmMixin;
+}
+.sigrholm-bg {
+  @include sigrholmMixin;
+  @include backgroundImage("map/hover_sigrholm.png");
+}
+
+.sigrholm-inner {
+  height: 124px;
+  width: 175px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 64px, 147px 27px, 142px 100px, 38px 88px);
+}
+
+@mixin silverstoneMixin(){
+  height: 185px;
+  width: 209px;
+  top: 924px;
+  left: 1280px;
+  position: absolute;
+}
+
+.silverstone {
+  @include silverstoneMixin;
+}
+.silverstone-bg {
+  @include silverstoneMixin;
+  @include backgroundImage("map/hover_silverstone.png");
+}
+
+.silverstone-inner {
+  height: 185px;
+  width: 209px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(31px 72px, 92px 36px, 159px 27px, 182px 159px, 32px 126px);
+}
+
+@mixin skelmotskrolrSpindleMixin(){
+  height: 236px;
+  width: 126px;
+  bottom: 1464px;
+  right: 424px;
+  position: absolute;
+}
+
+.skelmotskrolrSpindle {
+  @include skelmotskrolrSpindleMixin;
+}
+.skelmotskrolrSpindle-bg {
+  @include skelmotskrolrSpindleMixin;
+  @include backgroundImage("map/hover_skelmotskrolrspindle.png");
+}
+
+.skelmotskrolrSpindle-inner {
+  height: 236px;
+  width: 126px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(34px 140px, 82px 29px, 102px 32px, 45px 210px, 27px 209px);
+}
+
+@mixin skogrMixin(){
+  height: 196px;
+  width: 190px;
+  top: 1184px;
+  right: 512px;
+  position: absolute;}
+
+.skogr {
+  @include skogrMixin;
+}
+.skogr-bg {
+  @include skogrMixin;
+  @include backgroundImage("map/hover_skogr.png");
+}
+
+.skogr-inner {
+  height: 196px;
+  width: 190px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 85px, 117px 53px, 150px 22px, 169px 57px, 95px 102px, 101px 167px, 51px 170px);
+}
+
+@mixin skrymirsteadMixin(){
+  height: 108px;
+  width: 246px;
+  top: 958px;
+  left: 1456px;
+  position: absolute;
+}
+
+.skrymirstead {
+  @include skrymirsteadMixin;
+}
+.skrymirstead-bg {
+  @include skrymirsteadMixin;
+  @include backgroundImage("map/hover_skrymirstead.png");
+}
+
+.skrymirstead-inner {
+  height: 108px;
+  width: 246px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(32px 42px, 89px 28px, 221px 32px, 204px 85px, 30px 57px);
+}
+
+@mixin skyhornMixin(){
+  height: 119px;
+  width: 157px;
+  top: 1063px;
+  right: 1240px;
+  position: absolute;
+}
+
+.skyhorn {
+  @include skyhornMixin;
+}
+.skyhorn-bg {
+  @include skyhornMixin;
+  @include backgroundImage("map/hover_skyhorn.png");
+}
+
+.skyhorn-inner {
+  height: 119px;
+  width: 157px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(57px 29px, 132px 37px, 130px 60px, 50px 93px, 22px 73px);
+}
+
+@mixin southBridgeMixin(){
+  height: 105px;
+  width: 128px;
+  bottom: 1379px;
+  left: 730px;
+  position: absolute;}
+
+.southBridge {
+  @include southBridgeMixin;
+}
+.southBridge-bg {
+  @include southBridgeMixin;
+  @include backgroundImage("map/hover_southbridge.png");
+}
+
+.southBridge-inner {
+  height: 59px;
+  width: 82px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin southfjordMixin(){
+  height: 139px;
+  width: 130px;
+  bottom: 549px;
+  left: 545px;
+  position: absolute;}
+
+.southfjord {
+  @include southfjordMixin;
+}
+.southfjord-bg {
+  @include southfjordMixin;
+  @include backgroundImage("map/hover_southfjord.png");
+}
+
+.southfjord-inner {
+  height: 139px;
+  width: 130px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(34px 73px, 98px 26px, 110px 39px, 55px 79px, 42px 115px, 27px 111px);
+}
+
+@mixin spineIslesMixin(){
+  height: 100px;
+  width: 174px;
+  bottom: 1567px;
+  left: 514px;
+  position: absolute;
+}
+
+.spineIsles {
+  @include spineIslesMixin;
+}
+.spineIsles-bg {
+  @include spineIslesMixin;
+  @include backgroundImage("map/hover_spineisles.png");
+}
+
+.spineIsles-inner {
+  height: 54px;
+  width: 128px;
+  top:26px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon();
+}
+
+@mixin spiritsOfTheWaterMixin(){
+  height: 271px;
+  width: 141px;
+  bottom: 1317px;
+  right: 314px;
+  position: absolute;
+}
+
+.spiritsOfTheWater {
+  @include spiritsOfTheWaterMixin;
+}
+.spiritsOfTheWater-bg {
+  @include spiritsOfTheWaterMixin;
+  @include backgroundImage("map/hover_waterspirit.png");
+}
+
+.spiritsOfTheWater-inner {
+  height: 271px;
+  width: 141px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(71px 209px, 80px 124px, 26px 84px, 33px 33px, 91px 29px, 124px 110px, 95px 214px, 101px 247px, 80px 247px);
+}
+
+@mixin stemMixin(){
+  height: 108px;
+  width: 118px;
+  top: 446px;
+  right: 940px;
+  position: absolute;}
+
+.stem {
+  @include stemMixin;
+}
+.stem-bg {
+  @include stemMixin;
+  @include backgroundImage("map/hover_stem.png");
+}
+
+.stem-inner {
+  height: 62px;
+  width: 72px;
+  left: 23px;
+  top: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin stensMarchMixin(){
+  height: 1009px;
+  width: 1023px;
+  bottom: 1165px;
+  right: 621px;
+  position: absolute;}
+
+.stensMarch {
+  @include stensMarchMixin;
+}
+.stensMarch-bg {
+  @include stensMarchMixin;
+  @include backgroundImage("map/hover_stensmarch.png");
+}
+
+.stensMarch-inner {
+  height: 1009px;
+  width: 1023px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 972px, 91px 924px, 171px 838px, 535px 534px, 569px 382px, 675px 352px, 703px 292px, 861px 208px, 885px 102px, 1003px 24px, 965px 86px, 911px 114px, 891px 222px, 727px 310px, 701px 378px, 583px 426px, 549px 560px, 291px 778px, 183px 852px, 107px 948px, 29px 984px);
+}
+
+@mixin steppesOfSilenceMixin(){
+  height: 161px;
+  width: 197px;
+  top: 855px;
+  right: 1281px;
+  position: absolute;}
+
+.steppesOfSilence {
+  @include steppesOfSilenceMixin;
+}
+.steppesOfSilence-bg {
+  @include steppesOfSilenceMixin;
+  @include backgroundImage("map/hover_steppesofsilence.png");
+}
+
+.steppesOfSilence-inner {
+  height: 161px;
+  width: 197px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(47px 79px, 121px 30px, 171px 31px, 167px 54px, 114px 61px, 69px 96px, 41px 138px, 21px 132px);
+}
+
+@mixin stikillMixin(){
+  height: 120px;
+  width: 159px;
+  bottom: 1304px;
+  left: 568px;
+  position: absolute;}
+
+.stikill {
+  @include stikillMixin;
+}
+.stikill-bg {
+  @include stikillMixin;
+  @include backgroundImage("map/hover_stikill.png");
+}
+
+.stikill-inner {
+  height: 120px;
+  width: 159px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(57px 27px, 104px 37px, 135px 67px, 128px 98px, 74px 59px, 24px 43px);
+}
+
+@mixin stonehornMixin(){
+  height: 128px;
+  width: 147px;
+  top: 1180px;
+  left: 1079px;
+  position: absolute;
+}
+
+.stonehorn {
+  @include stonehornMixin;
+}
+.stonehorn-bg {
+  @include stonehornMixin;
+  @include backgroundImage("map/hover_stonehorn.png");
+}
+
+.stonehorn-inner {
+  height: 128px;
+  width: 147px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(15px 57px, 119px 24px, 112px 95px, 74px 104px);
+}
+
+@mixin straitOfHarrowsMixin(){
+  height: 134px;
+  width: 377px;
+  top: 121px;
+  left: 1592px;
+  position: absolute;}
+
+.straitOfHarrows {
+  @include straitOfHarrowsMixin;
+}
+.straitOfHarrows-bg {
+  @include straitOfHarrowsMixin;
+  @include backgroundImage("map/hover_straitofharrows.png");
+}
+
+.straitOfHarrows-inner {
+  height: 82px;
+  width: 325px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin strandMixin(){
+  height: 263px;
+  width: 339px;
+  bottom: 1426px;
+  left: 784px;
+  position: absolute;}
+
+.strand {
+  @include strandMixin;
+}
+.strand-bg {
+  @include strandMixin;
+  @include backgroundImage("map/hover_strand.png");
+}
+
+.strand-inner {
+  height: 263px;
+  width: 339px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(51px 128px, 26px 33px, 57px 27px, 81px 68px, 312px 205px, 314px 237px, 229px 232px, 43px 175px);
+}
+
+@mixin summerPathMixin(){
+  height: 687px;
+  width: 261px;
+  top: 1307px;
+  right: 1200px;
+  position: absolute;}
+
+.summerPath {
+  @include summerPathMixin;
+}
+.summerPath-bg {
+  @include summerPathMixin;
+  @include backgroundImage("map/hover_summerpath.png");
+}
+
+.summerPath-inner {
+  height: 687px;
+  width: 261px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(118px 603px, 38px 487px, 49px 375px, 191px 190px, 113px 162px, 99px 43px, 113px 40px, 134px 151px, 196px 170px, 238px 236px, 71px 381px, 65px 482px, 126px 587px, 189px 648px, 174px 658px);
+}
+
+@mixin sweinnsfeedMixin(){
+  height: 518px;
+  width: 268px;
+  bottom: 732px;
+  right: 554px;
+  position: absolute;}
+
+.sweinnsfeed {
+  @include sweinnsfeedMixin;
+}
+.sweinnsfeed-bg {
+  @include sweinnsfeedMixin;
+  @include backgroundImage("map/hover_sweinnsfeed.png");
+}
+
+.sweinnsfeed-inner {
+  height: 518px;
+  width: 268px;
+  position: absolute;
+  z-index: 100;
+  clip-path:  polygon(128px 256px, 81px 137px, 34px 45px, 161px 18px, 223px 79px, 245px 380px, 208px 497px, 136px 472px, 111px 385px);
+}
+
+@mixin theAnvilMixin(){
+  height: 98px;
+  width: 102px;
+  top: 503px;
+  right: 1234px;
+  position: absolute;}
+
+.theAnvil {
+  @include theAnvilMixin;
+}
+.theAnvil-bg {
+  @include theAnvilMixin;
+  @include backgroundImage("map/hover_theanvil.png");
+}
+
+.theAnvil-inner {
+  height: 46px;
+  width: 50px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin theArmsbeckMixin(){
+  height: 113px;
+  width: 160px;
+  bottom: 680px;
+  right: 668px;
+  position: absolute;
+}
+
+.theArmsbeck {
+  @include theArmsbeckMixin;
+}
+.theArmsbeck-bg {
+  @include theArmsbeckMixin;
+  @include backgroundImage("map/hover_thearmsbeck.png");
+}
+
+.theArmsbeck-inner {
+  height: 113px;
+  width: 160px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(24px 48px, 47px 26px, 92px 34px, 136px 71px, 130px 91px, 108px 78px, 76px 44px, 36px 57px);
+}
+
+@mixin theCardinalDirectionsMixin(){
+  height: 1152px;
+  width: 1014px;
+  top: 377px;
+  left: 63px;
+  position: absolute;
+}
+
+.theCardinalDirections {
+  @include theCardinalDirectionsMixin;
+}
+.theCardinalDirections-bg {
+  @include theCardinalDirectionsMixin;
+  @include backgroundImage("map/hover_nsew.png");
+}
+
+.theCardinalDirections-inner {
+  height: 1152px;
+  width: 1014px;
+  position: absolute;
+  z-index: 101;
+  clip-path: polygon(21px 505px, 139px 141px, 569px 1px, 921px 201px, 985px 577px, 775px 865px, 593px 965px, 231px 891px);
+}
+
+@mixin theConstellationsMixin(){
+  height: 572px;
+  width: 1339px;
+  top: 158px;
+  left: 0;
+  position: absolute;
+}
+
+.theConstellations {
+  @include theConstellationsMixin;
+}
+.theConstellations-bg {
+  @include theConstellationsMixin;
+  @include backgroundImage("map/hover_stars.png");
+}
+
+.theConstellations-inner {
+  height: 572px;
+  width: 1339px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(0px 275px, 0px 192px, 171px 231px, 589px 89px, 990px 312px, 1054px 279px, 1146px 8px, 1230px 21px, 1156px 305px, 1344px 524px, 1263px 582px, 1081px 375px, 990px 410px, 591px 194px, 195px 330px);
+}
+
+@mixin theForkMixin(){
+  height: 107px;
+  width: 113px;
+  top: 1071px;
+  left: 1258px;
+  position: absolute;
+}
+
+.theFork {
+  @include theForkMixin;
+}
+.theFork-bg {
+  @include theForkMixin;
+  @include backgroundImage("map/hover_thefork.png");
+}
+
+.theFork-inner {
+  height: 107px;
+  width: 113px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(77px 27px, 92px 39px, 38px 83px, 26px 69px);
+}
+
+@mixin theGodsreachHillsMixin(){
+  height: 283px;
+  width: 516px;
+  bottom: 884px;
+  left: 811px;
+  position: absolute;
+}
+
+.theGodsreachHills {
+  @include theGodsreachHillsMixin;
+}
+.theGodsreachHills-bg {
+  @include theGodsreachHillsMixin;
+  @include backgroundImage("map/hover_thegodsreachhills.png");
+}
+
+.theGodsreachHills-inner {
+  height: 283px;
+  width: 516px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(119px 148px, 171px 131px, 220px 70px, 193px 44px, 287px 29px, 495px 118px, 399px 153px, 262px 200px, 131px 224px, 125px 240px, 22px 255px);
+}
+
+@mixin theGreatLoomMixin(){
+  height: 295px;
+  width: 608px;
+  bottom: 1119px;
+  left: 1048px;
+  position: absolute;
+}
+
+.theGreatLoom {
+  @include theGreatLoomMixin;
+}
+.theGreatLoom-bg {
+  @include theGreatLoomMixin;
+  @include backgroundImage("map/hover_thegreatloom.png");
+}
+
+.theGreatLoom-inner {
+  height: 295px;
+  width: 608px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(139px 136px, 216px 85px, 529px 24px, 579px 78px, 435px 133px, 435px 167px, 485px 202px, 202px 223px, 122px 268px, 22px 258px);
+}
+
+@mixin theHammerMixin(){
+  height: 130px;
+  width: 127px;
+  top: 389px;
+  right: 1227px;
+  position: absolute;
+}
+
+.theHammer {
+  @include theHammerMixin;
+}
+.theHammer-bg {
+  @include theHammerMixin;
+  @include backgroundImage("map/hover_thehammer.png");
+}
+
+.theHammer-inner {
+  height: 130px;
+  width: 127px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(23px 37px, 37px 24px, 101px 91px, 95px 105px);
+}
+
+@mixin theHangedManMixin(){
+  height: 172px;
+  width: 153px;
+  top: 1473px;
+  left: 977px;
+  position: absolute;
+}
+
+.theHangedMan {
+  @include theHangedManMixin;
+}
+.theHangedMan-bg {
+  @include theHangedManMixin;
+  @include backgroundImage("map/hover_thehangedman.png");
+}
+
+.theHangedMan-inner {
+  height: 172px;
+  width: 153px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(28px 96px, 24px 76px, 52px 33px, 101px 28px, 129px 53px, 106px 155px);
+}
+
+@mixin theIronpeatWashMixin(){
+  height: 423px;
+  width: 873px;
+  bottom: 476px;
+  right: 641px;
+  position: absolute;}
+
+.theIronpeatWash {
+  @include theIronpeatWashMixin;
+}
+.theIronpeatWash-bg {
+  @include theIronpeatWashMixin;
+  @include backgroundImage("map/hover_theironpeatwash.png");
+}
+
+.theIronpeatWash-inner {
+  height: 423px;
+  width: 873px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(224px 162px, 239px 159px, 267px 231px, 340px 250px, 600px 167px, 656px 179px, 558px 266px, 297px 266px, 246px 242px);
+}
+
+@mixin theLeftFootMixin(){
+  height: 168px;
+  width: 101px;
+  top: 1771px;
+  left: 714px;
+  position: absolute;}
+
+.theLeftFoot {
+  @include theLeftFootMixin;
+}
+.theLeftFoot-bg {
+  @include theLeftFootMixin;
+  @include backgroundImage("map/hover_theleftfoot.png");
+}
+
+.theLeftFoot-inner {
+  height: 168px;
+  width: 101px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(47px 82px, 25px 26px, 47px 25px, 69px 81px, 74px 140px, 55px 141px);
+}
+
+@mixin theLongReachMixin(){
+  height: 296px;
+  width: 279px;
+  top: 1323px;
+  left: 764px;
+  position: absolute;
+}
+
+.theLongReach {
+  @include theLongReachMixin;
+}
+.theLongReach-bg {
+  @include theLongReachMixin;
+  @include backgroundImage("map/hover_thelongreach.png");
+}
+
+.theLongReach-inner {
+  height: 296px;
+  width: 279px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(56px 183px, 32px 167px, 115px 30px, 239px 32px, 247px 99px, 191px 120px, 34px 280px);
+}
+
+@mixin theOldWoodMixin(){
+  height: 393px;
+  width: 483px;
+  bottom: 490px;
+  left: 640px;
+  position: absolute;
+}
+
+.theOldWood {
+  @include theOldWoodMixin;
+}
+.theOldWood-bg {
+  @include theOldWoodMixin;
+  @include backgroundImage("map/hover_theoldwood.png");
+}
+
+.theOldWood-inner {
+  height: 393px;
+  width: 483px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(36px 231px, 104px 201px, 126px 147px, 359px 31px, 426px 36px, 453px 139px, 451px 207px, 381px 250px, 389px 307px, 377px 354px, 292px 365px, 77px 333px, 26px 277px);
+}
+
+@mixin theRedRiverMixin(){
+  height: 112px;
+  width: 148px;
+  top: 1822px;
+  left: 975px;
+  position: absolute;}
+
+.theRedRiver {
+  @include theRedRiverMixin;
+}
+.theRedRiver-bg {
+  @include theRedRiverMixin;
+  @include backgroundImage("map/hover_redriver.png");
+}
+
+.theRedRiver-inner {
+  height: 112px;
+  width: 148px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(29px 32px, 102px 26px, 126px 82px, 113px 89px, 89px 43px, 31px 53px);
+}
+
+@mixin theRightFootMixin(){
+  height: 106px;
+  width: 188px;
+  top: 1725px;
+  left: 771px;
+  position: absolute;
+}
+
+.theRightFoot {
+  @include theRightFootMixin;
+}
+.theRightFoot-bg {
+  @include theRightFootMixin;
+  @include backgroundImage("map/hover_therightfoot.png");
+}
+
+.theRightFoot-inner {
+  height: 106px;
+  width: 188px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(31px 25px, 109px 57px, 160px 63px, 156px 78px, 103px 73px, 27px 45px);
+}
+
+@mixin theRiverRakeMixin(){
+  height: 196px;
+  width: 112px;
+  bottom: 981px;
+  right: 706px;
+  position: absolute;
+}
+
+.theRiverRake {
+  @include theRiverRakeMixin;
+}
+.theRiverRake-bg {
+  @include theRiverRakeMixin;
+  @include backgroundImage("map/hover_theriverrake.png");
+}
+
+.theRiverRake-inner {
+  height: 144px;
+  width: 60px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon();
+}
+
+@mixin theRoeWashMixin(){
+  height: 230px;
+  width: 217px;
+  bottom: 447px;
+  right: 1374px;
+  position: absolute;
+}
+
+.theRoeWash {
+  @include theRoeWashMixin;
+}
+.theRoeWash-bg {
+  @include theRoeWashMixin;
+  @include backgroundImage("map/hover_theroewash.png");
+}
+
+.theRoeWash-inner {
+  height: 230px;
+  width: 217px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(116px 149px, 24px 36px, 43px 29px, 195px 189px, 165px 205px, 97px 197px);
+}
+
+@mixin theRottingRootsMixin(){
+  height: 89px;
+  width: 187px;
+  bottom: 106px;
+  right: 1217px;
+  position: absolute;
+}
+
+.theRottingRoots {
+  @include theRottingRootsMixin;
+}
+.theRottingRoots-bg {
+  @include theRottingRootsMixin;
+  @include backgroundImage("map/hover_therottingroots.png");
+}
+
+.theRottingRoots-inner {
+  height: 89px;
+  width: 187px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(31px 25px, 85px 41px, 161px 45px, 157px 63px, 81px 57px, 27px 41px);
+}
+
+@mixin theSkyIronsMixin(){
+  height: 241px;
+  width: 340px;
+  top: 782px;
+  right: 870px;
+  position: absolute;
+}
+
+.theSkyIrons {
+  @include theSkyIronsMixin;
+}
+.theSkyIrons-bg {
+  @include theSkyIronsMixin;
+  @include backgroundImage("map/hover_theskyirons.png");
+}
+
+.theSkyIrons-inner {
+  height: 241px;
+  width: 340px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(99px 150px, 218px 46px, 322px 29px, 232px 164px, 113px 213px, 27px 200px);
+}
+
+@mixin theSpearMixin(){
+  height: 228px;
+  width: 116px;
+  top: 1018px;
+  right: 251px;
+  position: absolute;
+}
+
+.theSpear {
+  @include theSpearMixin;
+}
+.theSpear-bg {
+  @include theSpearMixin;
+  @include backgroundImage("map/hover_thespear.png");
+}
+
+.theSpear-inner {
+  height: 176px;
+  width: 64px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin theStankharThreadsMixin(){
+  height: 160px;
+  width: 214px;
+  bottom: 204px;
+  right: 946px;
+  position: absolute;
+}
+
+.theStankharThreads {
+  @include theStankharThreadsMixin;
+}
+.theStankharThreads-bg {
+  @include theStankharThreadsMixin;
+  @include backgroundImage("map/hover_thestankharthreads.png");
+}
+
+.theStankharThreads-inner {
+  height: 160px;
+  width: 214px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(25px 125px, 82px 77px, 94px 32px, 186px 31px, 189px 47px, 110px 50px, 101px 89px, 33px 135px);
+}
+
+@mixin theTwinRiversMixin(){
+  height: 181px;
+  width: 88px;
+  top: 1140px;
+  left: 959px;
+  position: absolute;
+}
+
+.theTwinRivers {
+  @include theTwinRiversMixin;
+}
+.theTwinRivers-bg {
+  @include theTwinRiversMixin;
+  @include backgroundImage("map/hover_thetwinrivers.png");
+}
+
+.theTwinRivers-inner {
+  height: 129px;
+  width: 36px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin theUndeepMixin(){
+  height: 128px;
+  width: 129px;
+  bottom: 1006px;
+  left: 505px;
+  position: absolute;
+}
+
+.theUndeep {
+  @include theUndeepMixin;
+}
+.theUndeep-bg {
+  @include theUndeepMixin;
+  @include backgroundImage("map/hover_theundeep.png");
+}
+
+.theUndeep-inner {
+  height: 128px;
+  width: 129px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(33px 49px, 26px 34px, 63px 25px, 105px 93px, 86px 104px, 53px 51px);
+}
+
+@mixin theVarlsmarchMixin(){
+  height: 407px;
+  width: 1039px;
+  top: 1044px;
+  left: 1097px;
+  position: absolute;
+}
+
+.theVarlsmarch {
+  @include theVarlsmarchMixin;
+}
+.theVarlsmarch-bg {
+  @include theVarlsmarchMixin;
+  @include backgroundImage("map/hover_thevarlsmarch.png");
+}
+
+.theVarlsmarch-inner {
+  height: 407px;
+  width: 1039px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(122px 316px, 272px 325px, 304px 288px, 392px 302px, 404px 240px, 506px 203px, 526px 155px, 647px 175px, 764px 151px, 725px 117px, 765px 75px, 1016px 21px, 971px 105px, 784px 185px, 650px 182px, 397px 332px, 150px 381px, 24px 377px);
+}
+
+@mixin theVastMixin(){
+  height: 2029px;
+  width: 570px;
+  top: 456px;
+  left: 2px;
+  position: absolute;
+}
+
+.theVast {
+  @include theVastMixin;
+}
+.theVast-bg {
+  @include theVastMixin;
+  @include backgroundImage("map/hover_thevast.png");
+}
+
+.theVast-inner {
+  height: 2029px;
+  width: 570px;
+  position: absolute;
+  z-index: 101;
+  clip-path: polygon(0px 1473px, 374px 639px, 0px 279px, 0px 0px, 545px 492px, 539px 885px, 0px 2028px);
+}
+
+@mixin theWanderingRoadMixin(){
+  height: 313px;
+  width: 817px;
+  top: 1478px;
+  left: 1096px;
+  position: absolute;}
+
+.theWanderingRoad {
+  @include theWanderingRoadMixin;
+}
+.theWanderingRoad-bg {
+  @include theWanderingRoadMixin;
+  @include backgroundImage("map/hover_thewanderingroad.png");
+}
+
+.theWanderingRoad-inner {
+  height: 313px;
+  width: 817px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(151px 250px, 186px 172px, 278px 152px, 441px 59px, 683px 52px, 743px 48px, 790px 32px, 753px 62px, 670px 99px, 473px 100px, 259px 261px, 170px 287px, 114px 278px, 28px 275px);
+}
+
+@mixin tinsfountMixin(){
+  height: 96px;
+  width: 109px;
+  bottom: 463px;
+  left: 1392px;
+  position: absolute;
+}
+
+.tinsfount {
+  @include tinsfountMixin;
+}
+.tinsfount-bg {
+  @include tinsfountMixin;
+  @include backgroundImage("map/hover_tinsfount.png");
+}
+
+.tinsfount-inner {
+  height: 96px;
+  width: 109px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(54px 28px, 84px 30px, 74px 70px, 42px 63px, 22px 49px);
+}
+
+@mixin tistelMixin(){
+  height: 102px;
+  width: 150px;
+  bottom: 1199px;
+  right: 1161px;
+  position: absolute;
+}
+
+.tistel {
+  @include tistelMixin;
+}
+.tistel-bg {
+  @include tistelMixin;
+  @include backgroundImage("map/hover_tistel.png");
+}
+
+.tistel-inner {
+  height: 102px;
+  width: 150px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 68px, 48px 49px, 117px 23px, 124px 49px, 29px 80px);
+}
+
+@mixin tolirMixin(){
+  height: 120px;
+  width: 172px;
+  bottom: 613px;
+  left: 498px;
+  position: absolute;
+}
+
+.tolir {
+  @include tolirMixin;
+}
+.tolir-bg {
+  @include tolirMixin;
+  @include backgroundImage("map/hover_tolir.png");
+}
+
+.tolir-inner {
+  height: 120px;
+  width: 172px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(26px 53px, 97px 25px, 149px 48px, 105px 96px, 41px 76px);
+}
+
+@mixin toothpickWoodMixin(){
+  height: 153px;
+  width: 306px;
+  bottom: 1081px;
+  left: 1559px;
+  position: absolute;
+}
+
+.toothpickWood {
+  @include toothpickWoodMixin;
+}
+.toothpickWood-bg {
+  @include toothpickWoodMixin;
+  @include backgroundImage("map/hover_toothpickwood.png");
+}
+
+.toothpickWood-inner {
+  height: 153px;
+  width: 306px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(83px 82px, 106px 47px, 166px 29px, 282px 60px, 264px 99px, 25px 122px);
+}
+
+@mixin transportationMixin(){
+  height: 106px;
+  width: 131px;
+  bottom: 321px;
+  left: 168px;
+  position: absolute;}
+
+.transportation {
+  @include transportationMixin;
+}
+.transportation-bg {
+  @include transportationMixin;
+  @include backgroundImage("map/hover_longboat3.png");
+}
+
+.transportation-inner {
+  height: 54px;
+  width: 79px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin twoSpearsMixin(){
+  height: 131px;
+  width: 263px;
+  top: 1124px;
+  left: 1643px;
+  position: absolute;
+}
+
+.twoSpears {
+  @include twoSpearsMixin;
+}
+.twoSpears-bg {
+  @include twoSpearsMixin;
+  @include backgroundImage("map/hover_twospears.png");
+}
+
+.twoSpears-inner {
+  height: 131px;
+  width: 263px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(69px 43px, 162px 25px, 230px 79px, 143px 88px, 120px 67px, 94px 103px, 26px 93px);
+}
+
+@mixin vedrfellMixin(){
+  height: 118px;
+  width: 186px;
+  top: 1657px;
+  left: 942px;
+  position: absolute;
+}
+
+.vedrfell {
+  @include vedrfellMixin;
+}
+.vedrfell-bg {
+  @include vedrfellMixin;
+  @include backgroundImage("map/hover_vedrfell.png");
+}
+
+.vedrfell-inner {
+  height: 118px;
+  width: 186px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(28px 27px, 158px 47px, 156px 90px, 40px 55px);
+}
+
+@mixin veturSeaMixin(){
+  height: 878px;
+  width: 886px;
+  top: 209px;
+  right: 0;
+  position: absolute;}
+
+.veturSea {
+  @include veturSeaMixin;
+}
+.veturSea-bg {
+  @include veturSeaMixin;
+  @include backgroundImage("map/hover_vetursea.png");
+}
+
+.veturSea-inner {
+  height: 878px;
+  width: 886px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(803px 714px, 694px 436px, 581px 289px, 257px 132px, 190px 177px, 31px 115px, 196px 22px, 415px 55px, 647px 195px, 793px 370px, 886px 645px, 886px 852px);
+}
+
+@mixin viksNeckMixin(){
+  height: 128px;
+  width: 81px;
+  bottom: 929px;
+  left: 329px;
+  position: absolute;}
+
+.viksNeck {
+  @include viksNeckMixin;
+}
+.viksNeck-bg {
+  @include viksNeckMixin;
+  @include backgroundImage("map/hover_viksneck.png");
+}
+
+.viksNeck-inner {
+  height: 76px;
+  width: 29px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin voeMixin(){
+  height: 86px;
+  width: 95px;
+  bottom: 250px;
+  right: 754px;
+  position: absolute;
+}
+
+.voe {
+  @include voeMixin;
+}
+.voe-bg {
+  @include voeMixin;
+  @include backgroundImage("map/hover_voe.png");
+}
+
+.voe-inner {
+  height: 86px;
+  width: 95px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(59px 25px, 72px 41px, 48px 61px, 23px 53px);
+}
+
+
+@mixin waywardLakeMixin(){
+  height: 88px;
+  width: 159px;
+  bottom: 888px;
+  right: 1589px;
+  position: absolute;
+}
+
+.waywardLake {
+  @include waywardLakeMixin;
+}
+.waywardLake-bg {
+  @include waywardLakeMixin;
+  @include backgroundImage("map/hover_waywardlake.png");
+}
+
+.waywardLake-inner {
+  height: 88px;
+  width: 159px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(31px 36px, 75px 25px, 134px 45px, 133px 61px, 81px 46px, 30px 53px);
+}
+
+
+
+@mixin weaversEyeMixin(){
+  height: 96px;
+  width: 132px;
+  top: 551px;
+  right: 1074px;
+  position: absolute;}
+
+.weaversEye {
+  @include weaversEyeMixin;
+}
+.weaversEye-bg {
+  @include weaversEyeMixin;
+  @include backgroundImage("map/hover_weaverseye.png");
+}
+
+.weaversEye-inner {
+  height: 44px;
+  width: 80px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin whithagrMixin(){
+  height: 96px;
+  width: 213px;
+  bottom: 1141px;
+  left: 569px;
+  position: absolute;
+}
+
+.whithagr {
+  @include whithagrMixin;
+}
+.whithagr-bg {
+  @include whithagrMixin;
+  @include backgroundImage("map/hover_whithagr.png");
+}
+
+.whithagr-inner {
+  height: 44px;
+  width: 161px;
+  top: 23px;
+  left: 23px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin wolvesMawMixin(){
+  height: 351px;
+  width: 555px;
+  bottom: 905px;
+  right: 817px;
+  position: absolute;}
+
+.wolvesMaw {
+  @include wolvesMawMixin;
+}
+.wolvesMaw-bg {
+  @include wolvesMawMixin;
+  @include backgroundImage("map/hover_wolvesmaw.png");
+}
+
+.wolvesMaw-inner {
+  height: 351px;
+  width: 555px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(29px 115px, 159px 70px, 256px 95px, 442px 25px, 532px 152px, 482px 167px, 459px 204px, 393px 202px, 325px 263px, 316px 306px, 267px 286px, 193px 337px);
+}
+
+@mixin wyrmsTearIsleMixin(){
+  height: 144px;
+  width: 114px;
+  bottom: 449px;
+  right: 475px;
+  position: absolute;}
+
+.wyrmsTearIsle {
+  @include wyrmsTearIsleMixin;
+}
+.wyrmsTearIsle-bg {
+  @include wyrmsTearIsleMixin;
+  @include backgroundImage("map/hover_wyrmstearisle.png");
+}
+
+.wyrmsTearIsle-inner {
+  height: 90px;
+  width: 60px;
+  top: 27px;
+  left: 27px;
+  position: absolute;
+  z-index: 100;
+}
+
+@mixin wyrmscaleMountainsMixin(){
+  height: 1158px;
+  width: 845px;
+  top: 959px;
+  right: 1050px;
+  position: absolute;
+}
+
+.wyrmscaleMountains {
+  @include wyrmscaleMountainsMixin;
+}
+.wyrmscaleMountains-bg {
+  @include wyrmscaleMountainsMixin;
+  @include backgroundImage("map/hover_wyrmscalemountains.png");
+}
+
+.wyrmscaleMountains-inner {
+  height: 1158px;
+  width: 845px;
+  position: absolute;
+  z-index: 100;
+  clip-path: polygon(218px 917px, 280px 805px, 236px 677px, 400px 643px, 292px 555px, 424px 357px, 700px 125px, 526px 99px, 778px 51px, 824px 119px, 744px 161px, 758px 199px, 692px 227px, 666px 291px, 530px 383px, 550px 609px, 408px 743px, 486px 743px, 470px 835px, 380px 883px, 272px 1025px, 258px 1097px, 30px 1093px);
+}
+
+@mixin wyrmtoeMixin(){
+  height: 90px;
+  width: 197px;
+  top: 1314px;
+  right: 1174px;
+  position: absolute;}
+
+.wyrmtoe {
+  @include wyrmtoeMixin;
+}
+.wyrmtoe-bg {
+  @include wyrmtoeMixin;
+  @include backgroundImage("map/hover_wyrmtoe.png");
+}
+
+.wyrmtoe-inner {
+  height: 35px;
+  width: 144px;
+  top: 27px;
+  left: 27px;
+  position: absolute;
+  z-index: 100;
+}

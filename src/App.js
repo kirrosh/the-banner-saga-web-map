@@ -69,10 +69,8 @@ class App extends Component {
                 <div className='modal-inner-container'>
                     <span className='modal-title'>{this.state.modalTitle}</span>
                     <span className='modal-text'>{this.state.modalText || ' '}</span>
-                    <span
-                        className='modal-close-btn'
-                        onClick={this.closeModal.bind(this)}>Close</span>
                 </div>
+                <img src='https://imgur.com/AhhINAe.png' className='modal-close-btn' alt='CLose' onClick={this.closeModal.bind(this)}></img>
             </Modal>
         ]
 
